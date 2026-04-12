@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bsnrswea71rcn"]
+
+[node name="Player" type="CharacterBody3D" unique_id=1530573948]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=997874298]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1329019153]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=477695321]

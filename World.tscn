@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cwj7whbokif25"]
+
+[ext_resource type="PackedScene" uid="uid://bsnrswea71rcn" path="res://Player.tscn" id="1_c6gwx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_2dftf"]
+
+[node name="Root" type="Node3D" unique_id=295647539]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=827646192]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=620879269]
+mesh = SubResource("BoxMesh_2dftf")
+
+[node name="Player" parent="." unique_id=1530573948 instance=ExtResource("1_c6gwx")]
