@@ -13,7 +13,8 @@
       "mcp__blender__get_scene_info",
       "mcp__blender__get_viewport_screenshot",
       "mcp__blender__execute_blender_code",
-      "Bash(sort -k6,7)"
+      "Bash(sort -k6,7)",
+      "Bash(git ls-tree *)"
     ]
   }
 }
