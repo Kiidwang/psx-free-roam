@@ -1,9 +1,21 @@
 [gd_scene format=3 uid="uid://bsnrswea71rcn"]
 
-[node name="Player" type="CharacterBody3D" unique_id=1530573948]
+[ext_resource type="PackedScene" uid="uid://d2holoq8sgi7y" path="res://simple-character-psx.glb" id="2_model"]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=997874298]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1"]
+radius = 0.4
+height = 1.8
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1329019153]
+[node name="Player" type="CharacterBody3D" unique_id=262358075]
 
-[node name="Camera3D" type="Camera3D" parent="." unique_id=477695321]
+[node name="Model" parent="." unique_id=1416052345 instance=ExtResource("2_model")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 0, -0.885, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1213865270]
+shape = SubResource("CapsuleShape3D_1")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1552653099]
+transform = Transform3D(1, 0, 0, 0, 0.9882284, 0.15298584, 0, -0.15298584, 0.9882284, 0, 2.1630926, 6.5)
+current = true
+fov = 39.1
+near = 0.012

@@ -11,8 +11,18 @@ config_version=5
 [application]
 
 config/name="PS1_FreeRoam"
-config/features=PackedStringArray("4.6", "Forward Plus")
+run/main_scene="res://World.tscn"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/resizable=false
+window/size/window_width_override=1280
+window/size/window_height_override=960
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+window/stretch/scale_mode="integer"
 
 [dotnet]
 
