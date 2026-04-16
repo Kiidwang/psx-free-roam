@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/User 01/AppData/Local/Godot/GodotSharp/Tools/**)",
+      "Read(//c/Users/User 01/AppData/Roaming/Godot//**)",
+      "Skill(update-config)",
+      "Bash(claude mcp:*)",
+      "Bash(uvx blender-mcp:*)",
+      "mcp__godot__launch_editor",
+      "mcp__godot__get_project_info",
+      "mcp__godot__run_project",
+      "mcp__godot__get_debug_output",
+      "mcp__blender__get_scene_info",
+      "mcp__blender__get_viewport_screenshot",
+      "mcp__blender__execute_blender_code",
+      "Bash(sort -k6,7)"
+    ]
+  }
+}
