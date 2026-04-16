@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://1xom11lwevs"]
+
+[ext_resource type="PackedScene" uid="uid://bsnrswea71rcn" path="res://Player.tscn" id="1_c6gwx"]
+[ext_resource type="Script" uid="uid://cc6q8sg3a0ppm" path="res://Player.cs" id="2_2dftf"]
+[ext_resource type="Script" path="res://WorldGenerator.cs" id="4_wgen"]
+
+[sub_resource type="Environment" id="Environment_1"]
+background_mode = 1
+background_color = Color(0.55, 0.55, 0.6, 1)
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 0.7
+fog_enabled = true
+fog_light_color = Color(0.55, 0.55, 0.6, 1)
+fog_light_energy = 1.0
+fog_density = 0.06
+
+[sub_resource type="BoxMesh" id="BoxMesh_ground"]
+size = Vector3(2000, 0.5, 2000)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ground"]
+size = Vector3(2000, 0.5, 2000)
+
+[node name="Root" type="Node3D" unique_id=295647539]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=300000001]
+environment = SubResource("Environment_1")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=827646192]
+transform = Transform3D(1, 0, 0, 0, 0.766044, 0.642788, 0, -0.642788, 0.766044, 0, 5, 0)
+shadow_enabled = false
+
+[node name="Ground" type="StaticBody3D" parent="." unique_id=100000001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=620879269]
+mesh = SubResource("BoxMesh_ground")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=100000002]
+shape = SubResource("BoxShape3D_ground")
+
+[node name="WorldGenerator" type="Node3D" parent="." unique_id=500000001]
+script = ExtResource("4_wgen")
+PlayerPath = NodePath("../Player")
+
+[node name="Player" parent="." unique_id=1530573948 instance=ExtResource("1_c6gwx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("2_2dftf")
