@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cro5tqkga8px5"
-path.s3tc="res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"
+uid="uid://cswwhuop13yds"
+path.s3tc="res://.godot/imported/grandma_idle_0.png-61f09beaa68f8ad3b5eba1cd4f9c40e9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "4125e7b94cd5355ba36a2213635c4747"
+}
 
 [deps]
 
-source_file="res://simple-character-psx_character_256.png"
-dest_files=["res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"]
+source_file="res://Characters/grandma_idle_0.png"
+dest_files=["res://.godot/imported/grandma_idle_0.png-61f09beaa68f8ad3b5eba1cd4f9c40e9.s3tc.ctex"]
 
 [params]
 

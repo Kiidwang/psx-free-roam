@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cro5tqkga8px5"
-path.s3tc="res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"
+uid="uid://dsqhahvfwjecq"
+path.s3tc="res://.godot/imported/male_Idle_0.png-815eeccf2107f3958460aa8d7d4700e5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "a819d8995650c8e4566967af5331b45d"
+}
 
 [deps]
 
-source_file="res://simple-character-psx_character_256.png"
-dest_files=["res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"]
+source_file="res://male_Idle_0.png"
+dest_files=["res://.godot/imported/male_Idle_0.png-815eeccf2107f3958460aa8d7d4700e5.s3tc.ctex"]
 
 [params]
 

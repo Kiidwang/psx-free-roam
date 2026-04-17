@@ -14,7 +14,16 @@
       "mcp__blender__get_viewport_screenshot",
       "mcp__blender__execute_blender_code",
       "Bash(sort -k6,7)",
-      "Bash(git ls-tree *)"
+      "Bash(git ls-tree *)",
+      "Bash(dotnet build *)",
+      "Bash(sed -i 's|path=\"res://Player.tscn\"|path=\"res://Scenes/Player.tscn\"|g; \\\\ *)",
+      "Bash(sed -i 's|ModelPath = \"res://\\\\\\(.*\\\\.fbx\\\\\\)\"|ModelPath = \"res://Characters/\\\\1\"|g' World.tscn)",
+      "Bash(sed -i 's|path=\"res://Player.cs\"|path=\"res://Scripts/Player.cs\"|g; \\\\ *)",
+      "Bash(sed -i 's|path=\"res://NPC.cs\"|path=\"res://Scripts/NPC.cs\"|g' NPC.tscn)",
+      "Bash(mv Scripts/* .)",
+      "Bash(mv Shaders/* .)",
+      "Bash(mv Scenes/* .)",
+      "Bash(mv Player/* .)"
     ]
   }
 }

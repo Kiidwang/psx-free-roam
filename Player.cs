@@ -2,6 +2,8 @@ using Godot;
 
 public partial class Player : CharacterBody3D
 {
+	public static bool IsInDialogue = false;
+
 	[Export] public float Speed = 2.5f;
 	[Export] public float MouseSensitivity = 0.003f;
 
@@ -55,6 +57,7 @@ public partial class Player : CharacterBody3D
 
 	public override void _Input(InputEvent @event)
 	{
+		if (IsInDialogue) return;
 		if (@event is InputEventMouseMotion mouseMotion)
 		{
 			// Camera yaw orbits independently — player body never rotates with the mouse
@@ -68,6 +71,13 @@ public partial class Player : CharacterBody3D
 
 	public override void _PhysicsProcess(double delta)
 	{
+		if (IsInDialogue)
+		{
+			Velocity = Vector3.Zero;
+			PlayAnim("Idle");
+			return;
+		}
+
 		Vector3 velocity = Velocity;
 
 		if (!IsOnFloor())
@@ -134,6 +144,7 @@ public partial class Player : CharacterBody3D
 
 	public override void _Process(double delta)
 	{
+		if (IsInDialogue) return;
 		// Only rotate the model with the camera when not moving forward/backward
 		if (!_isMoving)
 			_model.Rotation = new Vector3(0f, _cameraYaw + Mathf.Pi, 0f);

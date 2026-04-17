@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cro5tqkga8px5"
-path.s3tc="res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"
+uid="uid://863ppb20jg5a"
+path.s3tc="res://.godot/imported/criminal_idl_0.png-a8bb8dfe55a0647b3f11ce0b78aa4a67.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "0bb9540449a3fb3b4d1833cac8ab5cda"
+}
 
 [deps]
 
-source_file="res://simple-character-psx_character_256.png"
-dest_files=["res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"]
+source_file="res://Characters/criminal_idl_0.png"
+dest_files=["res://.godot/imported/criminal_idl_0.png-a8bb8dfe55a0647b3f11ce0b78aa4a67.s3tc.ctex"]
 
 [params]
 

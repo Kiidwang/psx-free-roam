@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://bsbggldk5hl20"]
+
+[ext_resource type="Script" uid="uid://t2rlg2wwaa6l" path="res://NPC.cs" id="1_npcsc"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_1"]
+radius = 2.5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dlg"]
+bg_color = Color(0.04, 0.04, 0.14, 0.93)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.65, 0.65, 1, 0.9)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[node name="NPC" type="Node3D" unique_id=1248583925]
+script = ExtResource("1_npcsc")
+
+[node name="Model" type="Node3D" parent="." unique_id=875450180]
+
+[node name="InteractionArea" type="Area3D" parent="." unique_id=1338182180]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="InteractionArea" unique_id=794168239]
+shape = SubResource("SphereShape3D_1")
+
+[node name="PromptLabel" type="Label3D" parent="." unique_id=495245225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+billboard = 1
+modulate = Color(1, 1, 0.6, 1)
+text = "[ SPACE ]"
+font_size = 56
+outline_size = 8
+
+[node name="CinematicCamera" type="Camera3D" parent="." unique_id=955416901]
+fov = 50.0
+
+[node name="DialogueUI" type="CanvasLayer" parent="." unique_id=770050236]
+visible = false
+
+[node name="Panel" type="Panel" parent="DialogueUI" unique_id=1595462018]
+theme_override_styles/panel = SubResource("StyleBoxFlat_dlg")
+
+[node name="DialogueText" type="Label" parent="DialogueUI/Panel" unique_id=1546657857]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 16.0
+offset_right = -24.0
+offset_bottom = -44.0
+theme_override_colors/font_color = Color(1, 1, 0.92, 1)
+theme_override_font_sizes/font_size = 24
+text = "..."
+autowrap_mode = 3
+
+[node name="ContinueLabel" type="Label" parent="DialogueUI/Panel" unique_id=46177463]
+layout_mode = 0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = -38.0
+offset_right = -24.0
+offset_bottom = -8.0
+theme_override_colors/font_color = Color(0.65, 0.85, 1, 0.75)
+theme_override_font_sizes/font_size = 16
+text = "[ SPACE ]  Close"
+horizontal_alignment = 2

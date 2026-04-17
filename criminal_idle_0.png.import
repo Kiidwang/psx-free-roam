@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cro5tqkga8px5"
-path.s3tc="res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"
+uid="uid://cblyoygym5c5r"
+path.s3tc="res://.godot/imported/criminal_idle_0.png-3cf045b4c9746dbd4dbc1242d2bbab62.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "34b330d40d00a4c7c53f7ea05d7dfd9e"
+}
 
 [deps]
 
-source_file="res://simple-character-psx_character_256.png"
-dest_files=["res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"]
+source_file="res://criminal_idle_0.png"
+dest_files=["res://.godot/imported/criminal_idle_0.png-3cf045b4c9746dbd4dbc1242d2bbab62.s3tc.ctex"]
 
 [params]
 

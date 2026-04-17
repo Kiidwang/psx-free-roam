@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cro5tqkga8px5"
-path.s3tc="res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"
+uid="uid://bqysktio23tiw"
+path.s3tc="res://.godot/imported/gf_idle_0.png-bb038de8788b9b1a8cc2bc5656989b22.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "2782a6cd252e6648378b292ac96f4ebe"
+}
 
 [deps]
 
-source_file="res://simple-character-psx_character_256.png"
-dest_files=["res://.godot/imported/simple-character-psx_character_256.png-2c0649fae9371298f83c6caffd0fb2b3.s3tc.ctex"]
+source_file="res://gf_idle_0.png"
+dest_files=["res://.godot/imported/gf_idle_0.png-bb038de8788b9b1a8cc2bc5656989b22.s3tc.ctex"]
 
 [params]
 

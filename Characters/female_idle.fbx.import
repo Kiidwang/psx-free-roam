@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bce68omhk6xse"
-path="res://.godot/imported/simple-character-psx.glb-3294b20498bb8fcc57b42a7ebd953525.scn"
+uid="uid://cjcjjr0xgeu07"
+path="res://.godot/imported/female_idle.fbx-4bc5d22309b7fcde9470bdce0abe42f5.scn"
 
 [deps]
 
-source_file="res://simple-character-psx.glb"
-dest_files=["res://.godot/imported/simple-character-psx.glb-3294b20498bb8fcc57b42a7ebd953525.scn"]
+source_file="res://Characters/female_idle.fbx"
+dest_files=["res://.godot/imported/female_idle.fbx-4bc5d22309b7fcde9470bdce0abe42f5.scn"]
 
 [params]
 
@@ -30,7 +30,7 @@ meshes/force_disable_compression=false
 skins/use_named_skins=true
 animation/import=true
 animation/fps=30
-animation/trimming=false
+animation/trimming=true
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
@@ -38,5 +38,7 @@ materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
 _subresources={}
-gltf/naming_version=2
-gltf/embedded_image_handling=1
+fbx/importer=0
+fbx/allow_geometry_helper_nodes=false
+fbx/embedded_image_handling=1
+fbx/naming_version=2
