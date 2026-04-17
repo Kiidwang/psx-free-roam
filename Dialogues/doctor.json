@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "I'm collecting donations for the free clinic downtown. Can you spare $5?",
+      "yes_response": "Every dollar saves lives. Thank you.",
+      "no_response": "I understand. It's a hard time for everyone.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "I need someone to help me carry medical supplies to the shelter two blocks over. $10 for your time.",
+      "yes_response": "Wonderful. Follow me please.",
+      "no_response": "No worries. I'll make two trips.",
+      "type": "task",
+      "amount": 10
+    },
+    {
+      "text": "My parking meter ran out. Could I borrow $2?",
+      "yes_response": "You're a lifesaver. Literally, today.",
+      "no_response": "I'll take my chances with the ticket.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "I need a volunteer to hand out health pamphlets at the corner. $7 for an hour.",
+      "yes_response": "Excellent. Here's the stack.",
+      "no_response": "That's alright. Health can wait apparently.",
+      "type": "task",
+      "amount": 7
+    },
+    {
+      "text": "Medication fund is running low. Even $8 helps us serve patients.",
+      "yes_response": "This will help someone tonight. Thank you.",
+      "no_response": "We'll find another way. We always do.",
+      "type": "money",
+      "amount": 8
+    },
+    {
+      "text": "Could you sit with an elderly patient at the clinic while I run errands? I'll give you $12.",
+      "yes_response": "She'd appreciate the company. Room three.",
+      "no_response": "She'll be fine alone. Probably.",
+      "type": "task",
+      "amount": 12
+    },
+    {
+      "text": "Research fund for preventable diseases. Just $3 would mean so much.",
+      "yes_response": "Small donations change the world. Thank you.",
+      "no_response": "I understand. Times are tight.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "I need someone to pick up a prescription from the pharmacy on Main. $9 for the errand.",
+      "yes_response": "Here's the slip. Ask for Dr. Park's order.",
+      "no_response": "I'll go myself between patients.",
+      "type": "task",
+      "amount": 9
+    },
+    {
+      "text": "Could you donate $6 to the children's vaccination drive?",
+      "yes_response": "On behalf of every child you'll never meet — thank you.",
+      "no_response": "Not everyone can give. I appreciate you listening.",
+      "type": "money",
+      "amount": 6
+    },
+    {
+      "text": "Help me set up chairs for the community health talk tonight. $8 and free coffee.",
+      "yes_response": "Wonderful. The hall is just around the corner.",
+      "no_response": "I'll manage. The coffee was good though.",
+      "type": "task",
+      "amount": 8
+    }
+  ]
+}

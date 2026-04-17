@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "I forgot my wallet. Can you cover me? Just $6.",
+      "yes_response": "You're the sweetest. I'll make it up to you.",
+      "no_response": "Really? Okay. That's... okay.",
+      "type": "money",
+      "amount": 6
+    },
+    {
+      "text": "Can you pick up flowers for my mom's birthday on the way? I'll give you $8.",
+      "yes_response": "Yellow ones if they have them. Thank you!",
+      "no_response": "I guess I'll order something online then.",
+      "type": "task",
+      "amount": 8
+    },
+    {
+      "text": "I left my card at home and I'm $4 short for lunch.",
+      "yes_response": "Thank you babe. You always save me.",
+      "no_response": "I'll just... skip lunch I guess.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "Come with me to my sister's place to help set up the furniture? $9 for your time.",
+      "yes_response": "She's been waiting for that wardrobe. Let's go.",
+      "no_response": "Fine. I'll struggle alone with a wardrobe.",
+      "type": "task",
+      "amount": 9
+    },
+    {
+      "text": "My friend needs $5 and I don't have cash. Can I give her yours?",
+      "yes_response": "You're so generous. I'll add it to the tab.",
+      "no_response": "You're right, she'll be fine.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "Can you go return this dress for me? I hate doing returns. $7.",
+      "yes_response": "Just say it was too small. Here's the receipt.",
+      "no_response": "Ugh. Fine. I'll do it.",
+      "type": "task",
+      "amount": 7
+    },
+    {
+      "text": "We're $3 short for the tip at dinner.",
+      "yes_response": "We're not those people. Thank you.",
+      "no_response": "Then we are those people apparently.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "Can you wait in line at the bakery while I park? I'll give you $5.",
+      "yes_response": "Order the croissants. I'll be two minutes.",
+      "no_response": "The croissants will be gone. You know that right.",
+      "type": "task",
+      "amount": 5
+    },
+    {
+      "text": "I'm $10 short for the gift I already bought.",
+      "yes_response": "I'll transfer it to you tonight. Promise.",
+      "no_response": "I guess I return part of it.",
+      "type": "money",
+      "amount": 10
+    },
+    {
+      "text": "Help me wrap all these presents? $6 and hot chocolate.",
+      "yes_response": "You're actually wonderful. Tape's on the table.",
+      "no_response": "They're getting gift bags then.",
+      "type": "task",
+      "amount": 6
+    }
+  ]
+}

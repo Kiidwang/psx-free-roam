@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "Dear, I'm a bit short for my medication this week. Could you spare $4?",
+      "yes_response": "God bless you. You remind me of my grandson.",
+      "no_response": "That's alright, dear. I'll manage.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "My groceries are heavy. Could you carry them to the corner for me? I have $5 for you.",
+      "yes_response": "Oh thank you sweetheart. Right this way.",
+      "no_response": "I'll take it slow. I always do.",
+      "type": "task",
+      "amount": 5
+    },
+    {
+      "text": "The heating oil company needs $6 by Friday or they'll cut me off.",
+      "yes_response": "I'll light a candle for you tonight.",
+      "no_response": "I'll call my daughter. She'll understand.",
+      "type": "money",
+      "amount": 6
+    },
+    {
+      "text": "Could you help me reach that box on the top shelf? My back isn't what it used to be. $3.",
+      "yes_response": "Oh, just the blue one please. Thank you dear.",
+      "no_response": "I'll wait for my neighbor then.",
+      "type": "task",
+      "amount": 3
+    },
+    {
+      "text": "I'm baking bread for the church sale. Could you deliver the loaves for me? $7.",
+      "yes_response": "Ask for Sister Agnes. She'll take them.",
+      "no_response": "I suppose I'll take the bus.",
+      "type": "task",
+      "amount": 7
+    },
+    {
+      "text": "Lost $2 and I need exact change for the bus. Would you happen to have it?",
+      "yes_response": "You're an angel. Truly.",
+      "no_response": "I'll ask the driver to be kind.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "Could you read this letter for me? My glasses broke. I'll give you $3.",
+      "yes_response": "Go ahead dear. Read slowly please.",
+      "no_response": "My granddaughter will read it tomorrow.",
+      "type": "task",
+      "amount": 3
+    },
+    {
+      "text": "I'm short $8 for the phone bill. They'll disconnect me.",
+      "yes_response": "You're so kind. The world needs more people like you.",
+      "no_response": "I'll pray on it. Something will come.",
+      "type": "money",
+      "amount": 8
+    },
+    {
+      "text": "Water my garden while I'm at the clinic? $5 and you can take some tomatoes.",
+      "yes_response": "The hose is by the back gate. Thank you dear.",
+      "no_response": "They might wilt but they're tough little things.",
+      "type": "task",
+      "amount": 5
+    },
+    {
+      "text": "I'm $3 short for the candles at the Sunday service.",
+      "yes_response": "I'll say a little prayer for you.",
+      "no_response": "We'll use fewer candles. God will understand.",
+      "type": "money",
+      "amount": 3
+    }
+  ]
+}

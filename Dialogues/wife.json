@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "I'm short $5 for the kids' school supplies. Could you help?",
+      "yes_response": "Thank you so much. You don't know how much this helps.",
+      "no_response": "They'll make do. Kids are resilient.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "Could you watch my stroller for a minute while I run into the store? $4.",
+      "yes_response": "She's sleeping so just stay close. Thank you.",
+      "no_response": "I'll bring it in with me. It'll be fine.",
+      "type": "task",
+      "amount": 4
+    },
+    {
+      "text": "I'm $7 short for this week's grocery run.",
+      "yes_response": "I'll pay you back when my check clears. I mean it.",
+      "no_response": "I'll buy less this week. It's fine.",
+      "type": "money",
+      "amount": 7
+    },
+    {
+      "text": "Help me carry this stroller up the steps? My husband's at work. $5.",
+      "yes_response": "If you take the front I'll take the back. Thank you.",
+      "no_response": "I'll manage somehow. Always do.",
+      "type": "task",
+      "amount": 5
+    },
+    {
+      "text": "I forgot my transit card. $3 for the bus fare?",
+      "yes_response": "Thank you. We'd have been stuck here for hours.",
+      "no_response": "Maybe someone at the stop will help. Thank you anyway.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "Could you return this item at the customer service desk? I can't leave the stroller. $6.",
+      "yes_response": "Receipt's in the bag. They might ask for an exchange.",
+      "no_response": "I'll come back without the stroller another time.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "I'm $8 short for the electricity bill due today.",
+      "yes_response": "I'll pay you back this Friday without fail.",
+      "no_response": "I'll call and ask for an extension.",
+      "type": "money",
+      "amount": 8
+    },
+    {
+      "text": "Help me assemble this toy before my son's nap ends? $7.",
+      "yes_response": "The instructions are impossible but two minds help. Come.",
+      "no_response": "I'll do half tonight and half tomorrow.",
+      "type": "task",
+      "amount": 7
+    },
+    {
+      "text": "I lost $4 from my wallet somewhere in here. Help me search?",
+      "yes_response": "I last had it near that bench. Thank you.",
+      "no_response": "It's probably gone. I'll survive.",
+      "type": "task",
+      "amount": 4
+    },
+    {
+      "text": "Could you spare $6 for diapers? I miscounted and I'm out.",
+      "yes_response": "You're a lifesaver. Literally for a baby.",
+      "no_response": "I'll call my sister. She's nearby.",
+      "type": "money",
+      "amount": 6
+    }
+  ]
+}

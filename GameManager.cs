@@ -5,7 +5,7 @@ public partial class GameManager : Node
 	public static GameManager Instance { get; private set; }
 
 	private const int   MaxHours = 24;
-	private const float MaxFog   = 1.0f;
+	private const float MaxFog   = 0.8f;
 
 	private int                  _hours = 0;
 	private Godot.Environment    _env;

@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "Back in my day people helped each other. Spare $5, son?",
+      "yes_response": "Good kid. Your parents raised you right.",
+      "no_response": "Used to be different around here.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "Help me hang this flag on the wall? My ladder days are behind me. I'll give you $6.",
+      "yes_response": "Straight and proud, just like that. Good job.",
+      "no_response": "I'll ask the super. He owes me anyway.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "Bus pass ran out and I'm $3 short for a new one.",
+      "yes_response": "Thank you. Men like you keep the world turning.",
+      "no_response": "I'll walk. Did it for fifty years before buses existed.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "Take this package to the post office for me. My knees won't make it. $8.",
+      "yes_response": "Tell them it's prepaid. Just drop it at the counter.",
+      "no_response": "I'll mail it Monday. It's not urgent I suppose.",
+      "type": "task",
+      "amount": 8
+    },
+    {
+      "text": "Pharmacy won't cover my copay this month. $4 would do it.",
+      "yes_response": "I'll put your name in the book of good deeds.",
+      "no_response": "I'll skip a day. Won't kill me.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "Help me fix this bench — loose bolt. Won't take long. $5.",
+      "yes_response": "Wrench is in my coat pocket. You're a good man.",
+      "no_response": "I'll use tape for now. Works on everything.",
+      "type": "task",
+      "amount": 5
+    },
+    {
+      "text": "I'm owed $7 from the union but the check hasn't come. Lend it to me?",
+      "yes_response": "I'll repay it when it comes. You have my word.",
+      "no_response": "A man's word means nothing these days. Not your fault.",
+      "type": "money",
+      "amount": 7
+    },
+    {
+      "text": "Find my hearing aid in that garden bed over there. $6 if you find it.",
+      "yes_response": "Small tan thing. Can't hear a word without it.",
+      "no_response": "I'll get by reading lips like the old days.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "Just $2 for a newspaper. I like to read the obituaries. See who made it.",
+      "yes_response": "Ha. Thank you, son. I'll put in a good word for you.",
+      "no_response": "I'll read someone else's copy on the bench.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "Drive my grocery cart back to the store? My back's out. $7.",
+      "yes_response": "Just park it near the entrance. Here's the cart.",
+      "no_response": "I'll abandon it. I'm too old to care.",
+      "type": "task",
+      "amount": 7
+    }
+  ]
+}

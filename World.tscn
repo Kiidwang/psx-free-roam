@@ -94,62 +94,62 @@ script = ExtResource("2_2dftf")
 [node name="NPC_Cop" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 15)
 ModelPath = "res://Characters/cop_idle.fbx"
-DialogueText = "Stay safe out there."
+DialogueFile = "res://Dialogues/cop.json"
 
 [node name="NPC_Criminal1" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0, 12.99)
 ModelPath = "res://Characters/criminal_idl.fbx"
-DialogueText = "What are you looking at?"
+DialogueFile = "res://Dialogues/criminal1.json"
 
 [node name="NPC_Criminal2" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.99, 0, 7.5)
 ModelPath = "res://Characters/criminal_idle.fbx"
-DialogueText = "Keep moving."
+DialogueFile = "res://Dialogues/criminal2.json"
 
 [node name="NPC_Doctor" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 0)
 ModelPath = "res://Characters/doctor_Idle.fbx"
-DialogueText = "How are you feeling today?"
+DialogueFile = "res://Dialogues/doctor.json"
 
 [node name="NPC_Female" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.99, 0, -7.5)
 ModelPath = "res://Characters/female_idle.fbx"
-DialogueText = "Nice day for a walk."
+DialogueFile = "res://Dialogues/female.json"
 
 [node name="NPC_Friend" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0, -12.99)
 ModelPath = "res://Characters/friend_idle.fbx"
-DialogueText = "Hey! Good to see you!"
+DialogueFile = "res://Dialogues/friend.json"
 
 [node name="NPC_GF" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15)
 ModelPath = "res://Characters/gf_idle.fbx"
-DialogueText = "I've been waiting for you."
+DialogueFile = "res://Dialogues/gf.json"
 
 [node name="NPC_Grandma" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, 0, -12.99)
 ModelPath = "res://Characters/grandma_idle.fbx"
-DialogueText = "In my day, things were different."
+DialogueFile = "res://Dialogues/grandma.json"
 
 [node name="NPC_Grandpa" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.99, 0, -7.5)
 ModelPath = "res://Characters/grandpa_idle.fbx"
-DialogueText = "Back in my time..."
+DialogueFile = "res://Dialogues/grandpa.json"
 
 [node name="NPC_Male" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 0)
 ModelPath = "res://Characters/male_Idle.fbx"
-DialogueText = "Hey, how's it going?"
+DialogueFile = "res://Dialogues/male.json"
 
 [node name="NPC_RichGuy" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.99, 0, 7.5)
 ModelPath = "res://Characters/rich_guy_idle.fbx"
-DialogueText = "Do you know who I am?"
+DialogueFile = "res://Dialogues/rich_guy.json"
 
 [node name="NPC_Wife" parent="." instance=ExtResource("5_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, 0, 12.99)
 ModelPath = "res://Characters/wife_idle.fbx"
-DialogueText = "Have you seen my husband?"
+DialogueFile = "res://Dialogues/wife.json"
 
 [node name="PSXPostProcess" type="Node" parent="."]
 script = ExtResource("4_psxcs")

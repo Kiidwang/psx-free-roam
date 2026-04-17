@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "Hey citizen, we're running short on squad car fuel. Spare $5?",
+      "yes_response": "Appreciate it. Stay out of trouble.",
+      "no_response": "Fair enough. Move along.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "I lost my lunch money today. Could you lend me $3?",
+      "yes_response": "You're a good person. I won't forget this.",
+      "no_response": "Can't blame you. Have a safe night.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "Someone dumped trash near the east wall. Clean it up and I'll owe you one.",
+      "yes_response": "Good. That's civic duty right there.",
+      "no_response": "Thought so. Civilians these days.",
+      "type": "task",
+      "amount": 0
+    },
+    {
+      "text": "Radio's busted. If you find spare batteries, bring them to me — I'll give you $8.",
+      "yes_response": "Deal. I'll be here.",
+      "no_response": "Alright. Stay visible out there.",
+      "type": "task",
+      "amount": 8
+    },
+    {
+      "text": "Charity drive for the precinct — just $2 keeps the coffee machine running.",
+      "yes_response": "Heroes need caffeine. Thank you.",
+      "no_response": "We'll manage. Somehow.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "There's a missing dog report on Pine Street. If you spot it, let me know — worth $6.",
+      "yes_response": "Alright, keep your eyes open.",
+      "no_response": "No worries. Dog probably found its own way.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "Equipment fund needs $10 this week. Every bit helps.",
+      "yes_response": "The precinct thanks you, citizen.",
+      "no_response": "I understand. Budgets are tight.",
+      "type": "money",
+      "amount": 10
+    },
+    {
+      "text": "Someone spray-painted the wall by the alley. I need a witness statement — got a minute?",
+      "yes_response": "Good. Just describe what you saw.",
+      "no_response": "Case goes cold then. Great.",
+      "type": "task",
+      "amount": 0
+    },
+    {
+      "text": "Officer's retirement fund. Even $4 makes a difference.",
+      "yes_response": "Good on you. Serve and protect.",
+      "no_response": "No pressure. Just... remember us when you need us.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "I need someone to post flyers around the block. $7 if you do it.",
+      "yes_response": "Perfect. Grab the stack from that bench.",
+      "no_response": "Fine. I'll get a rookie to do it.",
+      "type": "task",
+      "amount": 7
+    }
+  ]
+}

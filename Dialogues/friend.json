@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "Hey man, lend me $5? I'll get you back by Friday.",
+      "yes_response": "You're the best, seriously.",
+      "no_response": "Dude come on. Fine, whatever.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "Help me move this couch out of my place. I'll buy you food after, swear.",
+      "yes_response": "Awesome. You grab the left side.",
+      "no_response": "Bro. It's a couch. Fine.",
+      "type": "task",
+      "amount": 0
+    },
+    {
+      "text": "I'm like $3 short for the pizza. You in?",
+      "yes_response": "Legend. I'll get you a slice extra.",
+      "no_response": "Guess I'm getting a small one then.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "Come distract Jenny while I set up her surprise party. $7 if you keep her busy for an hour.",
+      "yes_response": "Take her to the cafe. She loves that place.",
+      "no_response": "Dude, it's for Jenny.",
+      "type": "task",
+      "amount": 7
+    },
+    {
+      "text": "Gas money. $8. I drove you last time, remember?",
+      "yes_response": "There it is. Thank you.",
+      "no_response": "You know what, I remember now.",
+      "type": "money",
+      "amount": 8
+    },
+    {
+      "text": "Pick up my dry cleaning for me? I'll give you $6 and you can keep the change from the ticket.",
+      "yes_response": "Receipt's in my jacket pocket. Thanks bro.",
+      "no_response": "You're really going to make me go myself.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "I left my charger at yours. Can you go get it? $4 for the trip.",
+      "yes_response": "It's by the outlet next to the TV.",
+      "no_response": "What am I supposed to do, buy a new one?",
+      "type": "task",
+      "amount": 4
+    },
+    {
+      "text": "Lost my wallet at the bar. Need $6 to get home.",
+      "yes_response": "I'll pay you back double next time out.",
+      "no_response": "Guess I'm walking then. In these shoes.",
+      "type": "money",
+      "amount": 6
+    },
+    {
+      "text": "Cover my shift tomorrow morning? It's easy work. I'll give you $10.",
+      "yes_response": "Be there at 8. Don't be late.",
+      "no_response": "I'll call in sick I guess.",
+      "type": "task",
+      "amount": 10
+    },
+    {
+      "text": "Just $2 for the vending machine. Come on.",
+      "yes_response": "You're a hero. A snack hero.",
+      "no_response": "I can't believe this.",
+      "type": "money",
+      "amount": 2
+    }
+  ]
+}

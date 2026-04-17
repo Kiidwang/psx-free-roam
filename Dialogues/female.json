@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "I'm short $4 for groceries. Could you help me out?",
+      "yes_response": "Thank you so much. You have no idea.",
+      "no_response": "It's okay. I'll figure something out.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "My cat got out and I can't find her. Help me search the alley? I'll give you $8.",
+      "yes_response": "She's orange with a white paw. Thank you.",
+      "no_response": "I'll keep looking myself. She has to be close.",
+      "type": "task",
+      "amount": 8
+    },
+    {
+      "text": "Bus doesn't come for an hour. Could you spare $3 for a taxi?",
+      "yes_response": "You're so kind. Really.",
+      "no_response": "I'll wait. It's fine.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "I'm baking for the school fundraiser. Could you deliver these cookies to the school office? $6.",
+      "yes_response": "Just hand them to the receptionist. Thank you!",
+      "no_response": "I'll drop them off after my shift then.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "My electric bill is due tomorrow. $10 would save me from a shut-off.",
+      "yes_response": "I'll pay you back, I promise.",
+      "no_response": "I understand. I'll call the company.",
+      "type": "money",
+      "amount": 10
+    },
+    {
+      "text": "Could you watch my bags for 10 minutes while I run inside? I'll give you $5.",
+      "yes_response": "Just right here. I'll be quick.",
+      "no_response": "I'll bring them in with me then.",
+      "type": "task",
+      "amount": 5
+    },
+    {
+      "text": "I dropped my wallet earlier. Could you help me look around here? $7 if we find it.",
+      "yes_response": "I think it fell near that bench.",
+      "no_response": "I'll ask someone else. Thank you anyway.",
+      "type": "task",
+      "amount": 7
+    },
+    {
+      "text": "I'm $2 short for my coffee. Any chance?",
+      "yes_response": "You just made my whole morning.",
+      "no_response": "Tea it is then.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "My mom's in the hospital and I need $9 for the train there.",
+      "yes_response": "Thank you. I have to go now.",
+      "no_response": "I'll find a way. She'd understand.",
+      "type": "money",
+      "amount": 9
+    },
+    {
+      "text": "Help me move this table inside before it rains? I'll give you $6.",
+      "yes_response": "It's just through that door. Won't take long.",
+      "no_response": "It'll get wet but it'll dry.",
+      "type": "task",
+      "amount": 6
+    }
+  ]
+}

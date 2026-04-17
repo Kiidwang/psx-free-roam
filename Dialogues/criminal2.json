@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "Hey. Just got out. Need $5 to get back on my feet.",
+      "yes_response": "Straight up. Most people just walk by.",
+      "no_response": "It's like that huh. Alright.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "Take this note to the guy at the parking lot. Don't read it. $8 for you.",
+      "yes_response": "Good. Don't make eye contact with him.",
+      "no_response": "Too risky? Smart. But also annoying.",
+      "type": "task",
+      "amount": 8
+    },
+    {
+      "text": "My phone's dead and I need to call someone. $3 to borrow yours?",
+      "yes_response": "One call. That's it.",
+      "no_response": "Fair. Strangers and phones, I get it.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "Help me carry this bag to the alley exit. Too heavy for one person. I'll give you $10.",
+      "yes_response": "Quick and quiet. Let's move.",
+      "no_response": "Suit yourself. More work for me.",
+      "type": "task",
+      "amount": 10
+    },
+    {
+      "text": "Owe a guy $7 by sundown. Help me out.",
+      "yes_response": "You might've just kept my kneecaps intact.",
+      "no_response": "Hope your evening is better than mine.",
+      "type": "money",
+      "amount": 7
+    },
+    {
+      "text": "All I need is for you to confirm my alibi if anyone asks. $6.",
+      "yes_response": "You were with me the whole time. Easy.",
+      "no_response": "Honest type. Rare. Annoying.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "Just $2. I haven't eaten since yesterday.",
+      "yes_response": "I'll remember this.",
+      "no_response": "Alright. I'll manage.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "I need someone to hold this phone for an hour — not use it, just hold it. $9.",
+      "yes_response": "Pocket it. Don't let it ring.",
+      "no_response": "Too weird? Fair enough.",
+      "type": "task",
+      "amount": 9
+    },
+    {
+      "text": "A few bucks — $4 — just for smokes.",
+      "yes_response": "Cheers. You're decent.",
+      "no_response": "Story of my life.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "Walk past that camera on the wall, block the lens for a second. $11.",
+      "yes_response": "Casual. Scratch your head as you pass.",
+      "no_response": "Can't say I blame you.",
+      "type": "task",
+      "amount": 11
+    }
+  ]
+}

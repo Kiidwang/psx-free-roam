@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "Hey, I'm trying to get home. Need $4 for the train.",
+      "yes_response": "Thanks man. I appreciate it.",
+      "no_response": "Alright. I'll figure something out.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "Help me hand these flyers to people passing by? $7 for an hour.",
+      "yes_response": "Just stand here and hand them out. Easy money.",
+      "no_response": "Fair enough. Not everyone's into it.",
+      "type": "task",
+      "amount": 7
+    },
+    {
+      "text": "Between jobs right now. Could you spare $3?",
+      "yes_response": "Thanks. Things will pick up.",
+      "no_response": "Yeah it's tough out here. No worries.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "I'm setting up a table for a pop-up sale. Help me set it up? $8.",
+      "yes_response": "Table's over there. Legs fold out.",
+      "no_response": "I'll take longer but I'll manage.",
+      "type": "task",
+      "amount": 8
+    },
+    {
+      "text": "Trying to cover rent. $10 would actually help a lot right now.",
+      "yes_response": "This means more than you know.",
+      "no_response": "It's alright. I'll call my brother.",
+      "type": "money",
+      "amount": 10
+    },
+    {
+      "text": "Return this jacket to the store around the corner? Receipt's attached. I'll give you $6.",
+      "yes_response": "They might ask for ID. Just say it was a gift.",
+      "no_response": "Alright I'll do it after work.",
+      "type": "task",
+      "amount": 6
+    },
+    {
+      "text": "Trying to scrape together $5 for a hot meal.",
+      "yes_response": "Thanks. That actually helps.",
+      "no_response": "I'll skip it. Used to it.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "Help me push my car around the block? It stalled and I can't get towed until 6. $9.",
+      "yes_response": "Steer while I push. Ready?",
+      "no_response": "Fair. I'll wait for a friend.",
+      "type": "task",
+      "amount": 9
+    },
+    {
+      "text": "Just $2. I forgot my wallet at work.",
+      "yes_response": "Thanks. I'll get it tomorrow.",
+      "no_response": "Cool. No big deal.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "Help me load these boxes into that van? $10 for 20 minutes.",
+      "yes_response": "Stack them flat. Not too high.",
+      "no_response": "I'll take more trips then.",
+      "type": "task",
+      "amount": 10
+    }
+  ]
+}

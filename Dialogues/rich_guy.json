@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "I seem to have misplaced my card. Could you front me $10? Embarrassing really.",
+      "yes_response": "Terribly kind. I'll have my assistant wire it back.",
+      "no_response": "I suppose I'll ring someone. How inconvenient.",
+      "type": "money",
+      "amount": 10
+    },
+    {
+      "text": "I need someone to collect a parcel from the courier office. I'll pay $15 for the errand.",
+      "yes_response": "Just show this receipt. They'll hand it right over.",
+      "no_response": "I'll send the driver. He'll complain but he's paid for it.",
+      "type": "task",
+      "amount": 15
+    },
+    {
+      "text": "The valet charge is $8 and I only have hundreds. Split it with me?",
+      "yes_response": "I'll owe you. My accountant will sort it.",
+      "no_response": "I'll break the bill somewhere. Tedious.",
+      "type": "money",
+      "amount": 8
+    },
+    {
+      "text": "Stand at the door of my event and turn away anyone not on the list. $20 for the evening.",
+      "yes_response": "The list is right here. Be firm but polite.",
+      "no_response": "I'll hire a proper doorman. More expensive but whatever.",
+      "type": "task",
+      "amount": 20
+    },
+    {
+      "text": "I'm short $6 for the newspaper subscription renewal. Spare change?",
+      "yes_response": "Awfully decent of you. One must stay informed.",
+      "no_response": "I'll read it on the phone like a peasant I suppose.",
+      "type": "money",
+      "amount": 6
+    },
+    {
+      "text": "Carry my shopping bags to my car? Three bags, one block. $12.",
+      "yes_response": "It's the silver one. Try not to scratch it.",
+      "no_response": "My back will suffer for this decision.",
+      "type": "task",
+      "amount": 12
+    },
+    {
+      "text": "Tip fund for my regular table. They deserve more. $5 from you?",
+      "yes_response": "Generosity is a lost art. You still have it.",
+      "no_response": "I'll cover it entirely. As usual.",
+      "type": "money",
+      "amount": 5
+    },
+    {
+      "text": "Find a working power outlet in this building and let me know. $8.",
+      "yes_response": "Just text — oh, you don't have my number. Come find me.",
+      "no_response": "I'll ask the staff. If there are any.",
+      "type": "task",
+      "amount": 8
+    },
+    {
+      "text": "Could you cover a $9 cab? I left my wallet in my other trousers.",
+      "yes_response": "Prompt reimbursement. You have my word.",
+      "no_response": "I'll walk. The fresh air will be good for me.",
+      "type": "money",
+      "amount": 9
+    },
+    {
+      "text": "I need someone to sit through a meeting and take notes for me. $18 for two hours.",
+      "yes_response": "Just summarize the key decisions. Nothing too detailed.",
+      "no_response": "I'll have to attend it myself. Dreadful.",
+      "type": "task",
+      "amount": 18
+    }
+  ]
+}

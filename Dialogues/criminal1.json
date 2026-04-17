@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "Yo, I'm short on bus fare. Just $2, come on.",
+      "yes_response": "Respect. You're alright.",
+      "no_response": "Cold. Real cold.",
+      "type": "money",
+      "amount": 2
+    },
+    {
+      "text": "I got something going on. Deliver this envelope across town — $12 in it for you.",
+      "yes_response": "Smart choice. No questions, yeah?",
+      "no_response": "Your loss. I'll find someone else.",
+      "type": "task",
+      "amount": 12
+    },
+    {
+      "text": "My stomach's empty, man. $4 for food?",
+      "yes_response": "Good looking out. I won't forget.",
+      "no_response": "Aight. I'll figure it out.",
+      "type": "money",
+      "amount": 4
+    },
+    {
+      "text": "Keep watch near that corner for 10 minutes. $9 when you're done.",
+      "yes_response": "Cool. Just stand there, act natural.",
+      "no_response": "Whatever. Don't snitch.",
+      "type": "task",
+      "amount": 9
+    },
+    {
+      "text": "Need $6 or my guys are gonna be real unhappy with me tonight.",
+      "yes_response": "You just saved me a lot of pain. Thanks.",
+      "no_response": "Fine. Not your problem I guess.",
+      "type": "money",
+      "amount": 6
+    },
+    {
+      "text": "Tell that guy in the red hat I said hey. Just walk past him and say it. $5.",
+      "yes_response": "Simple. Go now before he moves.",
+      "no_response": "Man, it was one sentence.",
+      "type": "task",
+      "amount": 5
+    },
+    {
+      "text": "I'm just $3 short of getting myself straight tonight.",
+      "yes_response": "Appreciate it. We square.",
+      "no_response": "Aight. I'll find another way.",
+      "type": "money",
+      "amount": 3
+    },
+    {
+      "text": "Pick something up from the bench near the fountain. Don't look in the bag. $10.",
+      "yes_response": "Smart. In and out.",
+      "no_response": "Scared money don't make money.",
+      "type": "task",
+      "amount": 10
+    },
+    {
+      "text": "Help me out with $8. I'll owe you one, and my favors are worth something.",
+      "yes_response": "Now you're thinking long term.",
+      "no_response": "Your call. Hope you never need a favor.",
+      "type": "money",
+      "amount": 8
+    },
+    {
+      "text": "Distract that security guy for two minutes. I'll give you $11.",
+      "yes_response": "Just ask him for directions or something. Go.",
+      "no_response": "Man. Fine.",
+      "type": "task",
+      "amount": 11
+    }
+  ]
+}
