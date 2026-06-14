@@ -23,7 +23,9 @@
       "Bash(mv Scripts/* .)",
       "Bash(mv Shaders/* .)",
       "Bash(mv Scenes/* .)",
-      "Bash(mv Player/* .)"
+      "Bash(mv Player/* .)",
+      "Bash(ls -la ps-1-free-roam/)",
+      "Bash(ls dialgoueprompt.txt readme.txt)"
     ]
   }
 }

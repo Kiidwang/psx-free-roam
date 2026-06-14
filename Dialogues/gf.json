@@ -1,74 +1,78 @@
 {
   "dialogues": [
     {
-      "text": "I forgot my wallet. Can you cover me? Just $6.",
-      "yes_response": "You're the sweetest. I'll make it up to you.",
-      "no_response": "Really? Okay. That's... okay.",
+      "text": "Hey. I've been wanting to see you. You look thin. Can you cover me for forty? I'll explain everything.",
+      "yes_response": "You're so good. I always forget how good you are.",
+      "no_response": "Oh. No, I — I thought we were past that. It's fine.",
       "type": "money",
-      "amount": 6
+      "amount": 40
     },
     {
-      "text": "Can you pick up flowers for my mom's birthday on the way? I'll give you $8.",
-      "yes_response": "Yellow ones if they have them. Thank you!",
-      "no_response": "I guess I'll order something online then.",
-      "type": "task",
-      "amount": 8
-    },
-    {
-      "text": "I left my card at home and I'm $4 short for lunch.",
-      "yes_response": "Thank you babe. You always save me.",
-      "no_response": "I'll just... skip lunch I guess.",
+      "text": "I called you yesterday. You didn't pick up. I'm not making it a thing. Forty?",
+      "yes_response": "Thank you. You always come through. Even when I'm being unfair.",
+      "no_response": "No. I know. You've had a lot. I know.",
       "type": "money",
-      "amount": 4
+      "amount": 40
     },
     {
-      "text": "Come with me to my sister's place to help set up the furniture? $9 for your time.",
-      "yes_response": "She's been waiting for that wardrobe. Let's go.",
-      "no_response": "Fine. I'll struggle alone with a wardrobe.",
-      "type": "task",
-      "amount": 9
-    },
-    {
-      "text": "My friend needs $5 and I don't have cash. Can I give her yours?",
-      "yes_response": "You're so generous. I'll add it to the tab.",
-      "no_response": "You're right, she'll be fine.",
+      "text": "I've been thinking about us a lot lately. Not in a bad way. Just — a lot. And forty.",
+      "yes_response": "See that's what I mean. You just — you get it. You always get it.",
+      "no_response": "It's fine. It can wait. Everything can wait I guess.",
       "type": "money",
-      "amount": 5
+      "amount": 40,
+      "requires": "helped_wife",
+      "alt_text": "You've got that look. Like there's somewhere you're supposed to be. Like someone's waiting. I'm not going to ask. Forty.",
+      "alt_yes_response": "Thanks. You don't owe me an explanation. You never did, really.",
+      "alt_no_response": "Right. Of course. Go on, then. She's waiting."
     },
     {
-      "text": "Can you go return this dress for me? I hate doing returns. $7.",
-      "yes_response": "Just say it was too small. Here's the receipt.",
-      "no_response": "Ugh. Fine. I'll do it.",
-      "type": "task",
-      "amount": 7
-    },
-    {
-      "text": "We're $3 short for the tip at dinner.",
-      "yes_response": "We're not those people. Thank you.",
-      "no_response": "Then we are those people apparently.",
+      "text": "Something happened and I'm not ready to talk about it but I need forty and I need you to not ask.",
+      "yes_response": "Thank you. I'll tell you when I can. I promise.",
+      "no_response": "Okay. I understand. I just — okay.",
       "type": "money",
-      "amount": 3
+      "amount": 40
     },
     {
-      "text": "Can you wait in line at the bakery while I park? I'll give you $5.",
-      "yes_response": "Order the croissants. I'll be two minutes.",
-      "no_response": "The croissants will be gone. You know that right.",
-      "type": "task",
-      "amount": 5
-    },
-    {
-      "text": "I'm $10 short for the gift I already bought.",
-      "yes_response": "I'll transfer it to you tonight. Promise.",
-      "no_response": "I guess I return part of it.",
+      "text": "You've seemed different lately. I don't know how to say it. I'm not going to push. Forty?",
+      "yes_response": "I'm here. Whatever's going on. I'm not going anywhere.",
+      "no_response": "Right. Okay. I'll drop it. I always drop it.",
       "type": "money",
-      "amount": 10
+      "amount": 40
     },
     {
-      "text": "Help me wrap all these presents? $6 and hot chocolate.",
-      "yes_response": "You're actually wonderful. Tape's on the table.",
-      "no_response": "They're getting gift bags then.",
-      "type": "task",
-      "amount": 6
+      "text": "I was going to plan something. A trip. For us. I need forty to put the deposit down.",
+      "yes_response": "I know it's a weird time. But I want us to have something to look forward to.",
+      "no_response": "Yeah. You're right. Maybe it's not the right moment.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I miss you. Even when you're right here. Is that strange to say? Forty.",
+      "yes_response": "I'm going to remember you said yes. I'm going to hold onto that.",
+      "no_response": "That kind of hurts. But I understand. I do.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I'm having one of those days where I need you and I also need forty. Can you be both right now?",
+      "yes_response": "You're so good to me. I know I don't always say it.",
+      "no_response": "It's okay. I'll call someone else. About the money, not the other thing.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I trust you. Like, actually. And I need forty and I don't want to explain.",
+      "yes_response": "See. That's why. That's exactly why.",
+      "no_response": "I know. I know. It stings a little but I know.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I love you. I don't say it enough. And I need forty. This is both of those things at once.",
+      "yes_response": "I love you too. Come back soon. I mean it. Come back.",
+      "no_response": "The first part stands. Just so you know.",
+      "type": "money",
+      "amount": 40
     }
   ]
 }

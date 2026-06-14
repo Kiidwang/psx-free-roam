@@ -1,74 +1,81 @@
 {
   "dialogues": [
     {
-      "text": "I'm collecting donations for the free clinic downtown. Can you spare $5?",
-      "yes_response": "Every dollar saves lives. Thank you.",
-      "no_response": "I understand. It's a hard time for everyone.",
+      "text": "Sit. I'll be honest with you, because no one else here will. Every conversation you've had today has cost you something you can't get back. The fog isn't weather. It's what's left when your time runs out. Do you understand what I'm telling you?",
+      "yes_response": "Then you already know more than most of them do. Spend the hours on the people worth them. That's the only prescription I have.",
+      "no_response": "You will. Before the day is done, you will. I'm sorry that's the only thing I can promise you.",
+      "type": "truth_reveal",
+      "amount": 0
+    },
+    {
+      "text": "Your co-pay from last week. I know how this sounds, today of all days. Sixty.",
+      "yes_response": "Thank you. The clock doesn't stop for either of us. But this helps.",
+      "no_response": "It'll wait. You can't, though. Don't spend what's left of the day avoiding me.",
       "type": "money",
-      "amount": 5
+      "amount": 60
     },
     {
-      "text": "I need someone to help me carry medical supplies to the shelter two blocks over. $10 for your time.",
-      "yes_response": "Wonderful. Follow me please.",
-      "no_response": "No worries. I'll make two trips.",
-      "type": "task",
-      "amount": 10
-    },
-    {
-      "text": "My parking meter ran out. Could I borrow $2?",
-      "yes_response": "You're a lifesaver. Literally, today.",
-      "no_response": "I'll take my chances with the ticket.",
+      "text": "I've watched a lot of people walk through that fog. They all think they have more time than they do. Your portion of the lab work is sixty.",
+      "yes_response": "Good. Now go. Don't waste the daylight in here with me.",
+      "no_response": "I understand. The bill is the smallest thing you'll lose today. Keep that in mind.",
       "type": "money",
-      "amount": 2
+      "amount": 60
     },
     {
-      "text": "I need a volunteer to hand out health pamphlets at the corner. $7 for an hour.",
-      "yes_response": "Excellent. Here's the stack.",
-      "no_response": "That's alright. Health can wait apparently.",
-      "type": "task",
-      "amount": 7
-    },
-    {
-      "text": "Medication fund is running low. Even $8 helps us serve patients.",
-      "yes_response": "This will help someone tonight. Thank you.",
-      "no_response": "We'll find another way. We always do.",
+      "text": "Every hour you give someone is an hour the fog takes back. I won't pretend the billing is separate from that. Sixty.",
+      "yes_response": "Thank you. Choose carefully who gets the rest of them.",
+      "no_response": "Alright. Just understand what each visit is actually costing you now.",
       "type": "money",
-      "amount": 8
+      "amount": 60
     },
     {
-      "text": "Could you sit with an elderly patient at the clinic while I run errands? I'll give you $12.",
-      "yes_response": "She'd appreciate the company. Room three.",
-      "no_response": "She'll be fine alone. Probably.",
-      "type": "task",
-      "amount": 12
-    },
-    {
-      "text": "Research fund for preventable diseases. Just $3 would mean so much.",
-      "yes_response": "Small donations change the world. Thank you.",
-      "no_response": "I understand. Times are tight.",
+      "text": "The imaging came back. I could explain it, but the truth is simpler than the chart. You're running out. The fee is sixty.",
+      "yes_response": "Thank you. I wish the medicine were as honest as the bill.",
+      "no_response": "I won't push. You've heard enough hard things from me for one day.",
       "type": "money",
-      "amount": 3
+      "amount": 60
     },
     {
-      "text": "I need someone to pick up a prescription from the pharmacy on Main. $9 for the errand.",
-      "yes_response": "Here's the slip. Ask for Dr. Park's order.",
-      "no_response": "I'll go myself between patients.",
-      "type": "task",
-      "amount": 9
-    },
-    {
-      "text": "Could you donate $6 to the children's vaccination drive?",
-      "yes_response": "On behalf of every child you'll never meet — thank you.",
-      "no_response": "Not everyone can give. I appreciate you listening.",
+      "text": "The others out there — your mother, your wife, the rest — they're on the same clock you are. They just don't know it. Sixty for the consult.",
+      "yes_response": "Good. Then go see them while they're still here to see.",
+      "no_response": "I understand. Go to them anyway. The money was never the point.",
       "type": "money",
-      "amount": 6
+      "amount": 60
     },
     {
-      "text": "Help me set up chairs for the community health talk tonight. $8 and free coffee.",
-      "yes_response": "Wonderful. The hall is just around the corner.",
-      "no_response": "I'll manage. The coffee was good though.",
-      "type": "task",
-      "amount": 8
+      "text": "Facility fee, billed separately. The system doesn't care that the fog is closing in. Sixty. I'm sorry.",
+      "yes_response": "Thank you. Now stop spending your hours in a waiting room.",
+      "no_response": "Fair. Go. The day is shorter than you think.",
+      "type": "money",
+      "amount": 60
+    },
+    {
+      "text": "I can keep treating the symptoms. I can't treat the fog. Your deductible is sixty. I wish I had something better to offer.",
+      "yes_response": "Thank you. Spend the rest on the people, not the paperwork.",
+      "no_response": "I understand. There's no good way to hear any of this.",
+      "type": "money",
+      "amount": 60
+    },
+    {
+      "text": "You keep coming back to me. I'm flattered, but I'm the wrong door. The hours are better spent out there. Sixty, and then go.",
+      "yes_response": "Good. Now leave. I mean that kindly.",
+      "no_response": "Alright. Leave anyway. Please. Go find them.",
+      "type": "money",
+      "amount": 60
+    },
+    {
+      "text": "Annual fee. It assumes you'll have a year. We both know better. Sixty.",
+      "yes_response": "Thank you. We'll make what's left count. That part I can promise.",
+      "no_response": "It can wait. You can't. Go.",
+      "type": "money",
+      "amount": 60
+    },
+    {
+      "text": "I've gone over every option. Every one. There's a single thing left. Experimental. High risk. One in ten. More time, if it works. It's your call, and only yours.",
+      "yes_response": "We start tonight. Whatever happens — I'm glad you fought the fog instead of waiting for it.",
+      "no_response": "I understand. Then we'll make sure the hours you have left are good ones. That's a promise.",
+      "type": "surgery_offer",
+      "amount": 0
     }
   ]
 }

@@ -92,64 +92,69 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 script = ExtResource("2_2dftf")
 
 [node name="NPC_Cop" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 15)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 22)
 ModelPath = "res://Characters/cop_idle.fbx"
 DialogueFile = "res://Dialogues/cop.json"
 
 [node name="NPC_Criminal1" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0, 12.99)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 19.05)
 ModelPath = "res://Characters/criminal_idl.fbx"
 DialogueFile = "res://Dialogues/criminal1.json"
+IsGiver = true
 
 [node name="NPC_Criminal2" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.99, 0, 7.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.05, 0, 11)
 ModelPath = "res://Characters/criminal_idle.fbx"
-DialogueFile = "res://Dialogues/criminal2.json"
+DialogueFile = "res://Dialogues/rich_guy.json"
 
 [node name="NPC_Doctor" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, 0)
 ModelPath = "res://Characters/doctor_Idle.fbx"
 DialogueFile = "res://Dialogues/doctor.json"
 
 [node name="NPC_Female" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.99, 0, -7.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.05, 0, -11)
 ModelPath = "res://Characters/female_idle.fbx"
-DialogueFile = "res://Dialogues/female.json"
+DialogueFile = "res://Dialogues/mom.json"
+MaxNoResponses = 2
+IsFragile = true
 
 [node name="NPC_Friend" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0, -12.99)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -19.05)
 ModelPath = "res://Characters/friend_idle.fbx"
 DialogueFile = "res://Dialogues/friend.json"
 
 [node name="NPC_GF" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -22)
 ModelPath = "res://Characters/gf_idle.fbx"
 DialogueFile = "res://Dialogues/gf.json"
 
 [node name="NPC_Grandma" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, 0, -12.99)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -19.05)
 ModelPath = "res://Characters/grandma_idle.fbx"
 DialogueFile = "res://Dialogues/grandma.json"
+IsGiver = true
+IsFragile = true
 
 [node name="NPC_Grandpa" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.99, 0, -7.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.05, 0, -11)
 ModelPath = "res://Characters/grandpa_idle.fbx"
-DialogueFile = "res://Dialogues/grandpa.json"
+DialogueFile = "res://Dialogues/boss.json"
+IsGiver = true
+MaxNoResponses = 2
 
 [node name="NPC_Male" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 0, 0)
 ModelPath = "res://Characters/male_Idle.fbx"
-DialogueFile = "res://Dialogues/male.json"
+DialogueFile = "res://Dialogues/dad.json"
+MaxNoResponses = 2
 
-[node name="NPC_RichGuy" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.99, 0, 7.5)
-ModelPath = "res://Characters/rich_guy_idle.fbx"
-DialogueFile = "res://Dialogues/rich_guy.json"
 
 [node name="NPC_Wife" parent="." instance=ExtResource("5_npc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5, 0, 12.99)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 19.05)
 ModelPath = "res://Characters/wife_idle.fbx"
 DialogueFile = "res://Dialogues/wife.json"
+MaxNoResponses = 2
 
 [node name="PSXPostProcess" type="Node" parent="."]
 script = ExtResource("4_psxcs")

@@ -5,27 +5,42 @@ using System.Text.Json.Serialization;
 
 public partial class NPC : Node3D
 {
-	[Export] public string ModelPath   = "";
-	[Export] public float  ModelScale  = 0.47f;
-	[Export] public string DialogueFile = "";
+	[Export] public string ModelPath      = "";
+	[Export] public float  ModelScale     = 0.47f;
+	[Export] public string DialogueFile   = "";
+	[Export] public bool   IsGiver        = false;
+	[Export] public int    MaxNoResponses = 3;
+	[Export] public bool   IsFragile      = false;
 
 	private Area3D      _interactionArea;
 	private Label3D     _promptLabel;
+	private Label3D     _floatLabel;
 	private Camera3D    _cinematicCamera;
 	private CanvasLayer _dialogueUI;
 	private Label       _dialogueLabel;
 	private Label       _continueLabel;
 	private Label       _choiceLabel;
 
-	private Node3D   _player       = null;
+	private Node3D   _player      = null;
 	private Camera3D _playerCamera = null;
 
-	private bool _playerInRange  = false;
-	private bool _dialogueActive = false;
+	private bool  _playerInRange  = false;
+	private bool  _dialogueActive = false;
+	private int   _noCount        = 0;
+	private int   _yesCount       = 0;
+	private bool  _despawning     = false;
+	private float _despawnTimer   = 0f;
 
-	private List<DialogueEntry> _dialogues    = new();
+	private List<DialogueEntry> _dialogues     = new();
 	private int                 _dialogueIndex = 0;
-	private bool                _awaitingChoice = false; // true = showing question; false = showing response
+	private bool                _awaitingChoice = false;
+	private bool                _altActive      = false;
+
+	private bool Exhausted => _dialogues.Count > 0 && _dialogueIndex >= _dialogues.Count;
+
+	// Short key derived from the dialogue file ("res://Dialogues/gf.json" -> "gf").
+	// Used for cross-NPC memory flags like "helped_wife" / "lost_grandma".
+	public string NpcKey => System.IO.Path.GetFileNameWithoutExtension(DialogueFile);
 
 	private class DialogueEntry
 	{
@@ -34,6 +49,14 @@ public partial class NPC : Node3D
 		[JsonPropertyName("no_response")]  public string NoResponse  { get; set; } = "";
 		[JsonPropertyName("type")]         public string Type        { get; set; } = "";
 		[JsonPropertyName("amount")]       public int    Amount      { get; set; } = 0;
+		[JsonPropertyName("hours")]        public int    Hours       { get; set; } = 0;
+
+		// Optional reaction to prior choices (feature 3). When "requires" flag is set,
+		// the alt_* strings (if present) replace the default lines.
+		[JsonPropertyName("requires")]         public string Requires { get; set; } = "";
+		[JsonPropertyName("alt_text")]         public string AltText  { get; set; } = "";
+		[JsonPropertyName("alt_yes_response")] public string AltYes   { get; set; } = "";
+		[JsonPropertyName("alt_no_response")]  public string AltNo    { get; set; } = "";
 	}
 
 	private class DialogueData
@@ -68,7 +91,6 @@ public partial class NPC : Node3D
 		panel.OffsetTop    = -180f;
 		panel.OffsetBottom = -20f;
 
-		// Choice label added at runtime so it renders above PSX effect
 		_choiceLabel = new Label();
 		_choiceLabel.SetAnchorsAndOffsetsPreset(Control.LayoutPreset.BottomLeft);
 		_choiceLabel.OffsetLeft   =  16f;
@@ -82,10 +104,55 @@ public partial class NPC : Node3D
 		panel.AddChild(_choiceLabel);
 
 		LoadDialogues();
+		AddToGroup("npc");
+		UpdatePromptLabel();
 
 		if (ModelPath != "")
 			LoadModel();
 	}
+
+	private void UpdatePromptLabel()
+	{
+		if (Exhausted)
+		{
+			_promptLabel.Text     = "...";
+			_promptLabel.Modulate = new Color(0.5f, 0.5f, 0.5f, 1f);
+			return;
+		}
+
+		if (_dialogues.Count == 0) return;
+
+		var first = _dialogues[0];
+		string moneyTag = first.Type == "time_trade"
+			? $"-{first.Hours}h"
+			: IsGiver ? $"+${first.Amount}" : $"-${first.Amount}";
+
+		_promptLabel.Text = GetDisplayName();
+
+		float t = MaxNoResponses > 0 ? (float)_noCount / MaxNoResponses : 0f;
+		_promptLabel.Modulate = t switch
+		{
+			0f              => new Color(0.2f, 1f,   0.2f, 1f),
+			< 0.5f          => new Color(1f,   1f,   0.2f, 1f),
+			_               => new Color(1f,   0.2f, 0.2f, 1f)
+		};
+	}
+
+	public string GetDisplayName() => DialogueFile switch
+	{
+		var f when f.Contains("mom")      => "Mother",
+		var f when f.Contains("dad")      => "Father",
+		var f when f.Contains("wife")     => "Wife",
+		var f when f.Contains("grandma")  => "Grandmother",
+		var f when f.Contains("boss")     => "Your Boss",
+		var f when f.Contains("friend")   => "Your Friend",
+		var f when f.Contains("doctor")   => "The Doctor",
+		var f when f.Contains("gf")       => "Her",
+		var f when f.Contains("rich_guy") => "The Old Man",
+		var f when f.Contains("criminal1")=> "Him",
+		var f when f.Contains("cop")      => "The Officer",
+		_                                 => "Someone"
+	};
 
 	private void LoadDialogues()
 	{
@@ -172,17 +239,21 @@ public partial class NPC : Node3D
 
 	private void ShowQuestion()
 	{
-		if (_dialogues.Count == 0)
+		if (_dialogues.Count == 0 || Exhausted)
 		{
-			_dialogueLabel.Text  = "...";
-			_choiceLabel.Visible = false;
+			_dialogueLabel.Text    = "...";
+			_choiceLabel.Visible   = false;
 			_continueLabel.Visible = true;
-			_awaitingChoice = false;
+			_awaitingChoice        = false;
 			return;
 		}
 
-		var entry = _dialogues[_dialogueIndex % _dialogues.Count];
-		_dialogueLabel.Text    = entry.Text;
+		var entry = _dialogues[_dialogueIndex];
+		_altActive = entry.Requires != ""
+			&& (GameManager.Instance?.HasFlag(entry.Requires) ?? false)
+			&& entry.AltText != "";
+
+		_dialogueLabel.Text    = _altActive ? entry.AltText : entry.Text;
 		_choiceLabel.Visible   = true;
 		_continueLabel.Visible = false;
 		_awaitingChoice        = true;
@@ -192,17 +263,97 @@ public partial class NPC : Node3D
 	{
 		if (_dialogues.Count == 0) return;
 
-		var entry = _dialogues[_dialogueIndex % _dialogues.Count];
-		_dialogueLabel.Text    = yes ? entry.YesResponse : entry.NoResponse;
+		var entry = _dialogues[_dialogueIndex];
+		string yesResp = _altActive && entry.AltYes != "" ? entry.AltYes : entry.YesResponse;
+		string noResp  = _altActive && entry.AltNo  != "" ? entry.AltNo  : entry.NoResponse;
+		_dialogueLabel.Text    = yes ? yesResp : noResp;
 		_choiceLabel.Visible   = false;
 		_continueLabel.Visible = true;
 		_awaitingChoice        = false;
 
+		// The Doctor's reveal fires regardless of the player's answer (feature 6)
+		if (entry.Type == "truth_reveal")
+			GameManager.Instance?.RevealTruth();
+
+		if (yes)
+		{
+			_yesCount++;
+
+			// Remember who the player chose to help, for other NPCs to react to (feature 3)
+			GameManager.Instance?.SetFlag($"helped_{NpcKey}");
+			if (DialogueFile.Contains("criminal"))
+				GameManager.Instance?.SetFlag("took_criminal_money");
+
+			if (entry.Type == "money")
+			{
+				int delta = IsGiver ? entry.Amount : -entry.Amount;
+				GameManager.Instance?.OnMoneyChanged(delta);
+			}
+			else if (entry.Type == "time_trade")
+			{
+				GameManager.Instance?.OnTimeTrade(entry.Hours);
+			}
+			else if (entry.Type == "surgery_offer")
+			{
+				GameManager.Instance?.OnSurgeryChoice(accepted: true);
+			}
+
+			if (_yesCount == 2)
+			{
+				if (DialogueFile.Contains("gf"))
+					GameManager.Instance?.DespawnByDialogue("wife");
+				else if (DialogueFile.Contains("criminal"))
+					GameManager.Instance?.ActivateCopDrain();
+			}
+		}
+		else
+		{
+			if (entry.Type == "surgery_offer")
+			{
+				GameManager.Instance?.OnSurgeryChoice(accepted: false);
+			}
+			else
+			{
+				_noCount++;
+				if (_noCount >= MaxNoResponses)
+					TriggerDespawn();
+			}
+		}
+
 		_dialogueIndex++;
+		UpdatePromptLabel();
+	}
+
+	public void TriggerDespawn()
+	{
+		if (_despawning) return;
+		_despawning = true;
+		_interactionArea.SetDeferred("monitoring", false);
+		_promptLabel.Visible = false;
+		if (_dialogueActive) EndDialogue();
+
+		_floatLabel = new Label3D();
+		_floatLabel.Text      = $"{GetDisplayName()} has accepted the fog";
+		_floatLabel.FontSize  = 28;
+		_floatLabel.Modulate  = new Color(1f, 1f, 1f, 1f);
+		_floatLabel.Position  = Vector3.Up * 2.2f;
+		_floatLabel.Billboard = BaseMaterial3D.BillboardModeEnum.Enabled;
+		_floatLabel.NoDepthTest = true;
+		AddChild(_floatLabel);
+	}
+
+	public void ApplyPassiveDrain()
+	{
+		_noCount++;
+		UpdatePromptLabel();
+		if (_noCount >= MaxNoResponses)
+			TriggerDespawn();
 	}
 
 	private void EndDialogue()
 	{
+		bool wasExhausted = Exhausted;
+
 		_dialogueActive     = false;
 		Player.IsInDialogue = false;
 
@@ -213,32 +364,10 @@ public partial class NPC : Node3D
 
 		Input.MouseMode = Input.MouseModeEnum.Captured;
 
-		TeleportOtherNPCs();
 		GameManager.Instance?.OnInteractionComplete();
-	}
 
-	private void TeleportOtherNPCs()
-	{
-		var rng = new RandomNumberGenerator();
-		rng.Randomize();
-
-		var others = new List<NPC>();
-		foreach (Node sibling in GetParent().GetChildren())
-			if (sibling is NPC other && other != this)
-				others.Add(other);
-
-		var positions = new List<Vector3>();
-		foreach (var npc in others)
-			positions.Add(npc.GlobalPosition);
-
-		for (int i = positions.Count - 1; i > 0; i--)
-		{
-			int j = (int)(rng.Randi() % (uint)(i + 1));
-			(positions[i], positions[j]) = (positions[j], positions[i]);
-		}
-
-		for (int i = 0; i < others.Count; i++)
-			others[i].GlobalPosition = positions[i];
+		if (wasExhausted)
+			ApplyPassiveDrain();
 	}
 
 	private void PositionCinematicCamera()
@@ -267,6 +396,26 @@ public partial class NPC : Node3D
 
 	public override void _Process(double delta)
 	{
+		if (_despawning)
+		{
+			_despawnTimer += (float)delta;
+			float t = Mathf.Clamp(_despawnTimer / 1.5f, 0f, 1f);
+			Scale = Vector3.One * (1f - t);
+
+			if (_floatLabel != null)
+			{
+				_floatLabel.Position += Vector3.Up * (float)delta * 0.6f;
+				_floatLabel.Modulate  = new Color(1f, 1f, 1f, 1f - t);
+			}
+
+			if (_despawnTimer >= 1.5f)
+			{
+				GameManager.Instance?.OnNPCDespawned(this);
+				QueueFree();
+			}
+			return;
+		}
+
 		if (_playerInRange && !_dialogueActive)
 			FacePlayer();
 	}

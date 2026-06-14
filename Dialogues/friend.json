@@ -1,74 +1,74 @@
 {
   "dialogues": [
     {
-      "text": "Hey man, lend me $5? I'll get you back by Friday.",
-      "yes_response": "You're the best, seriously.",
-      "no_response": "Dude come on. Fine, whatever.",
+      "text": "dude you look terrible. like actually. are you sleeping? anyway — can you spot me twenty?",
+      "yes_response": "you're the best. seriously. also drink some water you look like a ghost.",
+      "no_response": "no worries man I'll ask somebody else. but seriously get some sleep.",
       "type": "money",
-      "amount": 5
+      "amount": 20
     },
     {
-      "text": "Help me move this couch out of my place. I'll buy you food after, swear.",
-      "yes_response": "Awesome. You grab the left side.",
-      "no_response": "Bro. It's a couch. Fine.",
-      "type": "task",
-      "amount": 0
-    },
-    {
-      "text": "I'm like $3 short for the pizza. You in?",
-      "yes_response": "Legend. I'll get you a slice extra.",
-      "no_response": "Guess I'm getting a small one then.",
+      "text": "okay I know you've had a lot going on. I respect that. I'm not going to ask about it. twenty?",
+      "yes_response": "legend. also I'm here if you ever want to talk. I know I don't say that enough.",
+      "no_response": "nah it's cool. you've got enough going on. I'll sort it.",
       "type": "money",
-      "amount": 3
+      "amount": 20
     },
     {
-      "text": "Come distract Jenny while I set up her surprise party. $7 if you keep her busy for an hour.",
-      "yes_response": "Take her to the cafe. She loves that place.",
-      "no_response": "Dude, it's for Jenny.",
-      "type": "task",
-      "amount": 7
-    },
-    {
-      "text": "Gas money. $8. I drove you last time, remember?",
-      "yes_response": "There it is. Thank you.",
-      "no_response": "You know what, I remember now.",
+      "text": "I feel like we haven't hung out in forever. I miss you dude. also I need twenty.",
+      "yes_response": "okay but we're actually hanging out this week. I mean it this time.",
+      "no_response": "nah it's fine. we'll figure it out when things calm down for you.",
       "type": "money",
-      "amount": 8
+      "amount": 20
     },
     {
-      "text": "Pick up my dry cleaning for me? I'll give you $6 and you can keep the change from the ticket.",
-      "yes_response": "Receipt's in my jacket pocket. Thanks bro.",
-      "no_response": "You're really going to make me go myself.",
-      "type": "task",
-      "amount": 6
-    },
-    {
-      "text": "I left my charger at yours. Can you go get it? $4 for the trip.",
-      "yes_response": "It's by the outlet next to the TV.",
-      "no_response": "What am I supposed to do, buy a new one?",
-      "type": "task",
-      "amount": 4
-    },
-    {
-      "text": "Lost my wallet at the bar. Need $6 to get home.",
-      "yes_response": "I'll pay you back double next time out.",
-      "no_response": "Guess I'm walking then. In these shoes.",
+      "text": "remember when you used to call me back? we were so young. twenty bucks?",
+      "yes_response": "I'm kidding. kind of. not about the twenty though.",
+      "no_response": "okay fair. I'm still kidding. mostly.",
       "type": "money",
-      "amount": 6
+      "amount": 20
     },
     {
-      "text": "Cover my shift tomorrow morning? It's easy work. I'll give you $10.",
-      "yes_response": "Be there at 8. Don't be late.",
-      "no_response": "I'll call in sick I guess.",
-      "type": "task",
-      "amount": 10
-    },
-    {
-      "text": "Just $2 for the vending machine. Come on.",
-      "yes_response": "You're a hero. A snack hero.",
-      "no_response": "I can't believe this.",
+      "text": "I heard something second-hand and I didn't want to bring it up but like — are you okay? twenty.",
+      "yes_response": "okay. okay. I'm not going to push. I just — I worry about you.",
+      "no_response": "no I get it. just. I'm around. you know that right?",
       "type": "money",
-      "amount": 2
+      "amount": 20
+    },
+    {
+      "text": "you look like you haven't eaten. have you eaten? anyway. twenty. I'll buy you something.",
+      "yes_response": "okay we're getting food right now. non-negotiable. you need it.",
+      "no_response": "okay at least eat something later. I'm serious. you look rough.",
+      "type": "money",
+      "amount": 20
+    },
+    {
+      "text": "you're one of like three people I actually like. I hope you know that. also twenty.",
+      "yes_response": "I mean it. okay come on let's go do something I'm bored.",
+      "no_response": "you know I still mean the first part right. okay I'll get someone else.",
+      "type": "money",
+      "amount": 20
+    },
+    {
+      "text": "twenty. quick. I can't explain right now but I'll explain later and you'll totally get it.",
+      "yes_response": "okay I love you. don't make it weird. thank you.",
+      "no_response": "okay that's fair. I wouldn't explain either in your shoes.",
+      "type": "money",
+      "amount": 20
+    },
+    {
+      "text": "I know today's been a lot. I can see it on your face. I'm not going to ask. just twenty.",
+      "yes_response": "thank you. I'm here if you need anything. I know I'm asking for money but I mean it.",
+      "no_response": "nah it's good. hey. you good? like actually?",
+      "type": "money",
+      "amount": 20
+    },
+    {
+      "text": "you're the only person I can ask and I just — I don't want to lose track of you. twenty bucks.",
+      "yes_response": "hey. when this is all over — whatever this is — we're getting drinks. promise me.",
+      "no_response": "I'll figure it out. but hey. I mean what I said. don't disappear on me.",
+      "type": "money",
+      "amount": 20
     }
   ]
 }

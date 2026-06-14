@@ -1,74 +1,74 @@
 {
   "dialogues": [
     {
-      "text": "I'm short $5 for the kids' school supplies. Could you help?",
-      "yes_response": "Thank you so much. You don't know how much this helps.",
-      "no_response": "They'll make do. Kids are resilient.",
+      "text": "The account is low. I've been covering things I can't cover. I just need a hundred.",
+      "yes_response": "Thank you. I've been doing this alone for a while. I don't know if you've noticed.",
+      "no_response": "Okay. I'll figure it out. I always figure it out.",
       "type": "money",
-      "amount": 5
+      "amount": 100
     },
     {
-      "text": "Could you watch my stroller for a minute while I run into the store? $4.",
-      "yes_response": "She's sleeping so just stay close. Thank you.",
-      "no_response": "I'll bring it in with me. It'll be fine.",
-      "type": "task",
-      "amount": 4
-    },
-    {
-      "text": "I'm $7 short for this week's grocery run.",
-      "yes_response": "I'll pay you back when my check clears. I mean it.",
-      "no_response": "I'll buy less this week. It's fine.",
+      "text": "You look pale. You've looked pale for weeks. Don't — I'm not asking about it. Just the hundred.",
+      "yes_response": "Thank you. I'm not going to ask about the rest today.",
+      "no_response": "I know. It's fine. I said I'd handle it.",
       "type": "money",
-      "amount": 7
+      "amount": 100
     },
     {
-      "text": "Help me carry this stroller up the steps? My husband's at work. $5.",
-      "yes_response": "If you take the front I'll take the back. Thank you.",
-      "no_response": "I'll manage somehow. Always do.",
-      "type": "task",
-      "amount": 5
-    },
-    {
-      "text": "I forgot my transit card. $3 for the bus fare?",
-      "yes_response": "Thank you. We'd have been stuck here for hours.",
-      "no_response": "Maybe someone at the stop will help. Thank you anyway.",
+      "text": "I made an appointment I shouldn't have. I can't cancel it. A hundred would cover it.",
+      "yes_response": "I'll tell you what it was for when I get back. Maybe.",
+      "no_response": "I'll cancel it. It can wait. I'm getting good at that.",
       "type": "money",
-      "amount": 3
+      "amount": 100
     },
     {
-      "text": "Could you return this item at the customer service desk? I can't leave the stroller. $6.",
-      "yes_response": "Receipt's in the bag. They might ask for an exchange.",
-      "no_response": "I'll come back without the stroller another time.",
-      "type": "task",
-      "amount": 6
-    },
-    {
-      "text": "I'm $8 short for the electricity bill due today.",
-      "yes_response": "I'll pay you back this Friday without fail.",
-      "no_response": "I'll call and ask for an extension.",
+      "text": "I haven't said what I want to say in a long time. I know that. Just — a hundred.",
+      "yes_response": "I'm going to figure out how to say it. I will. I just need a little more time.",
+      "no_response": "Alright. It can wait. It's been waiting.",
       "type": "money",
-      "amount": 8
+      "amount": 100
     },
     {
-      "text": "Help me assemble this toy before my son's nap ends? $7.",
-      "yes_response": "The instructions are impossible but two minds help. Come.",
-      "no_response": "I'll do half tonight and half tomorrow.",
-      "type": "task",
-      "amount": 7
-    },
-    {
-      "text": "I lost $4 from my wallet somewhere in here. Help me search?",
-      "yes_response": "I last had it near that bench. Thank you.",
-      "no_response": "It's probably gone. I'll survive.",
-      "type": "task",
-      "amount": 4
-    },
-    {
-      "text": "Could you spare $6 for diapers? I miscounted and I'm out.",
-      "yes_response": "You're a lifesaver. Literally for a baby.",
-      "no_response": "I'll call my sister. She's nearby.",
+      "text": "I called your doctor. They said to call them. You didn't tell me that. I need a hundred.",
+      "yes_response": "I'm not going to pretend I didn't hear it. You should've told me.",
+      "no_response": "Okay. Okay. I'm not going to push.",
       "type": "money",
-      "amount": 6
+      "amount": 100
+    },
+    {
+      "text": "I've been sleeping on my side of the bed. I don't know when that started. A hundred.",
+      "yes_response": "I'm not trying to make this about me. I just — I needed to say that.",
+      "no_response": "I know. I know you can't right now.",
+      "type": "money",
+      "amount": 100
+    },
+    {
+      "text": "I bought something for the house. I thought it would help. I need the hundred back.",
+      "yes_response": "I wanted something to feel normal. Just one thing. I thought that might do it.",
+      "no_response": "I'll return it. Things don't have to be the same as they were.",
+      "type": "money",
+      "amount": 100
+    },
+    {
+      "text": "I've been thinking about what comes after. I'm not ready to talk about it. Just the hundred.",
+      "yes_response": "Thank you. We'll talk about the rest when I can.",
+      "no_response": "Okay. I know you're tired. I know.",
+      "type": "money",
+      "amount": 100
+    },
+    {
+      "text": "I don't know how to do this. Any of it. A hundred would help with the part I can control.",
+      "yes_response": "Thank you. I love you. I don't know if I've been saying it enough.",
+      "no_response": "Alright. I love you. That's not conditional on the money.",
+      "type": "money",
+      "amount": 100
+    },
+    {
+      "text": "I'm not going to say goodbye today. I'm just asking for a hundred. That's all this is.",
+      "yes_response": "Good. That's all this is. We're not doing anything else today.",
+      "no_response": "Okay. Okay. I'll be here when you get back.",
+      "type": "money",
+      "amount": 100
     }
   ]
 }

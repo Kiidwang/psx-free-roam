@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "I want everything settled before the end of the week. Here's what we owe you. Forty.",
+      "yes_response": "Good. I've always run a clean operation. I want that to hold.",
+      "no_response": "It'll be here. I'm not going anywhere.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I heard from HR. I'm not going to ask questions. But take this. Forty.",
+      "yes_response": "You were one of the good ones. I don't say that to many people.",
+      "no_response": "I'll hold it. Come back for it when you're ready.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "There's outstanding pay from last quarter. I want it in your hands. Forty.",
+      "yes_response": "Good. Consider it done.",
+      "no_response": "I'll put it in an envelope with your name on it. It's not going anywhere.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "You've put in good work. More than I let on. Take the forty.",
+      "yes_response": "I should've said it while it mattered more. That's on me.",
+      "no_response": "Your call. But know it was earned.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I'm squaring up accounts. I don't leave things unfinished. Forty.",
+      "yes_response": "Good. That's how I've always run things.",
+      "no_response": "It's yours either way. I'll make sure of that.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I covered something on your behalf. I don't want reimbursement. Just — take the forty.",
+      "yes_response": "Don't make it sentimental. Just take it.",
+      "no_response": "Stubborn. That's not always a virtue. Come back for it.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "There's a thing people don't say enough in this business. You mattered. Take the forty.",
+      "yes_response": "Good. Now don't make me say anything else.",
+      "no_response": "The money doesn't expire. The sentiment neither.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "I've been doing this a long time. You learn to see when things are winding down. Forty.",
+      "yes_response": "Go. While you still can. That's not nothing.",
+      "no_response": "The offer doesn't close. Whenever you're ready.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "Final pay period. I ran the numbers twice. Here's your forty.",
+      "yes_response": "Good luck. I mean that in a way that doesn't require explanation.",
+      "no_response": "Alright. I'll note it. It doesn't disappear.",
+      "type": "money",
+      "amount": 40
+    },
+    {
+      "text": "Take this. Don't tell me you're fine. Just take the forty and go see whoever you need to see.",
+      "yes_response": "Good. That's the right call. I wish I'd made more of those.",
+      "no_response": "Alright. But I hope you reconsider what you're spending your time on.",
+      "type": "money",
+      "amount": 40
+    }
+  ]
+}

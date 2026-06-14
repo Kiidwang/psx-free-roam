@@ -1,0 +1,74 @@
+{
+  "dialogues": [
+    {
+      "text": "I need thirty. Can't get into it right now.",
+      "yes_response": "I'll pay it back. You know I'm good for it.",
+      "no_response": "Fair enough.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "Truck needs work. I keep putting it off. Thirty.",
+      "yes_response": "I'll get it sorted this week. Been meaning to.",
+      "no_response": "I'll manage. Always have.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "I've been thinking about calling you more. Haven't done it. Can you spare thirty?",
+      "yes_response": "I'm going to call more. I mean that. Starting this week.",
+      "no_response": "Alright. That's alright.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "Your sister's been asking about you. She worries. Don't tell her I told you. Thirty.",
+      "yes_response": "She'd want to know you're okay. She just doesn't know how to say it.",
+      "no_response": "She'll worry anyway. That's what she does.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "I want to take your mother somewhere nice. Haven't done it in years. Thirty would help.",
+      "yes_response": "She'd like that. She doesn't ask for much. Never has.",
+      "no_response": "Maybe another time. It can wait.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "I'm not good at saying things. I never have been. You know that. Thirty.",
+      "yes_response": "I'm going to do better. I mean it. I should've been better.",
+      "no_response": "Alright. I understand.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "I got a call from the hospital. About billing. I covered it. I need thirty back.",
+      "yes_response": "Don't worry about that. You focus on getting through the day.",
+      "no_response": "I'll sort it. Don't worry about it.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "I'm not good at this. Any of it. I want you to know I tried. Thirty.",
+      "yes_response": "You didn't get that from me. Being good at things. That's all you.",
+      "no_response": "Alright. I know.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "I should've come to more of your things. I know that. I know. Thirty.",
+      "yes_response": "I'll make it up to you. I don't know how yet. But I will.",
+      "no_response": "Yeah. I hear you.",
+      "type": "money",
+      "amount": 30
+    },
+    {
+      "text": "I know I haven't been — I don't know how to finish that. Thirty.",
+      "yes_response": "You're a good kid. You always have been. I should've said that more.",
+      "no_response": "Alright. Take care of yourself.",
+      "type": "money",
+      "amount": 30
+    }
+  ]
+}
