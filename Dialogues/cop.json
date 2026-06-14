@@ -1,76 +1,76 @@
 {
   "dialogues": [
 	{
-	  "text": "You don't look so good. That's not my problem. Thirty. And keep moving.",
-	  "yes_response": "Smart. I didn't see you. You didn't see me.",
-	  "no_response": "Wrong call. But alright. Keep moving anyway.",
+	  "text": "You don't look so good. That's not my problem to solve, and I'm not going to pretend it is. Thirty, and keep moving. Everybody's happier when people keep moving.",
+	  "yes_response": "Smart. I didn't see you, you didn't see me. That's the whole arrangement, and it's a good one.",
+	  "no_response": "Wrong call. But alright. Keep moving anyway — that part of the advice was free of charge.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "I've been watching this block. You've been making your rounds. I need thirty.",
-	  "yes_response": "Good. I'll make sure your rounds go smooth.",
-	  "no_response": "I'll remember that. I remember most things.",
+	  "text": "I've been watching this block a while now. Long enough to know your face, your route, the rhythm of you. You've been making your little rounds. I need thirty.",
+	  "yes_response": "Good. Then I'll make sure your rounds keep running smooth. Smooth is a thing I can arrange.",
+	  "no_response": "I'll remember that you said no. I remember most things. It's most of what the job is, really.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "I know who you've been visiting. I'm not here about that. I'm here for thirty.",
-	  "yes_response": "Quiet transaction. That's how I prefer it.",
-	  "no_response": "You're sure? Think about what kind of day you want to have.",
+	  "text": "I know who you've been visiting today. House to house, like a man saying goodbyes. I'm not here about any of that. I'm here for thirty.",
+	  "yes_response": "Quiet transaction. That's how I prefer them, and I suspect that's how you prefer them too.",
+	  "no_response": "You're sure about that? Think hard about what kind of day you're trying to have out here.",
 	  "type": "money",
 	  "amount": 30,
 	  "requires": "took_criminal_money",
-	  "alt_text": "I know whose money's in your pocket. I'm not asking where it came from. Thirty, and I forget I noticed.",
-	  "alt_yes_response": "Good. Then I never saw it. Neither did you.",
-	  "alt_no_response": "Bold. Walking around carrying that, telling me no. I'll remember it."
+	  "alt_text": "I know whose money's folded up in your pocket. I watched the hand it came from. I'm not going to ask where it's headed. Thirty, and I forget I noticed any of it.",
+	  "alt_yes_response": "Good. Then I never saw it, and neither did you. The money was never anywhere. Easy.",
+	  "alt_no_response": "Bold. Walking my block carrying that, looking me in the eye, and telling me no. I'll remember the boldness."
 	},
 	{
-	  "text": "Off duty means off the record. Thirty. Nobody finds out about this.",
-	  "yes_response": "Good answer. Pretend this didn't happen.",
-	  "no_response": "Alright. Pretend it didn't happen either way. That part's free.",
+	  "text": "Off duty means off the record — that's the only part of this badge I still believe in. Thirty. Nobody upstream of either of us finds out about it.",
+	  "yes_response": "Good answer. Pretend this didn't happen, and I'll do you the same courtesy in return.",
+	  "no_response": "Alright. Pretend it didn't happen either way — that part I'll give you for nothing. Consider it goodwill.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "I've got a situation at home. Everybody's got something. Thirty bucks.",
-	  "yes_response": "I appreciate the discretion. You seem like you understand how things work.",
-	  "no_response": "Alright. I'll sort it myself. You take care of yours.",
+	  "text": "I've got a situation at home. The kind you don't put in a report. Everybody's carrying something heavy this year, seems like. Thirty bucks toward mine.",
+	  "yes_response": "I appreciate the discretion. You strike me as a man who understands how the machinery actually turns.",
+	  "no_response": "Alright. I'll sort mine out on my own. You go take care of whatever's pulling at yours.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "This neighborhood runs better when there's an understanding. You follow me? Thirty.",
-	  "yes_response": "Smart. Real smart. Now have a good rest of your day.",
-	  "no_response": "That's a shame. You seemed like a reasonable person.",
+	  "text": "This neighborhood runs better when there's an understanding between the people on it. You follow what I'm laying out for you? Thirty, and we understand each other.",
+	  "yes_response": "Smart. Real smart. The kind of smart that gets a man through to evening. Have a good rest of your day.",
+	  "no_response": "That's a shame, genuinely. You had the look of a reasonable person. First impressions, I suppose.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "Look. I'll be honest. It's been a long week. I just need thirty. Cash.",
-	  "yes_response": "Good. That's the most honest I've been all day.",
-	  "no_response": "Okay. You win this one. Get going.",
+	  "text": "Look. I'll be straight with you, which is more than I've managed all week. It's been a long one. I just need thirty. Cash, and we both move on.",
+	  "yes_response": "Good. That's the most honest thing I've said since Monday, and you're the one who got it. Lucky you.",
+	  "no_response": "Okay. You win this one. Get going before I remember I've got a quota and a bad attitude.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "Whatever you're trying to get done today — thirty makes it easier. For both of us.",
-	  "yes_response": "Exactly. A quiet understanding. Good doing business.",
-	  "no_response": "Alright. Hard way it is.",
+	  "text": "Whatever it is you're trying to get done today — and you've got the look of a man with a list — thirty makes it go smoother. For both of us. That's the pitch.",
+	  "yes_response": "Exactly. A quiet understanding between grown men. Pleasure doing business on a quiet street.",
+	  "no_response": "Alright. The hard way it is, then. I did offer you the soft one. Remember that I offered.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "I'm not going to make this complicated. Thirty. And you go on with your day.",
-	  "yes_response": "Good. You didn't see me. I didn't see you. Clean.",
-	  "no_response": "You sure? Look like you've got places to be.",
+	  "text": "I'm not going to make this complicated for you — complication's for people with time to spare. Thirty. And you go on with your day, lighter by thirty.",
+	  "yes_response": "Good. You didn't see me, I didn't see you. Clean as a whistle. That's the spirit of the thing.",
+	  "no_response": "You sure? You've got the look of a man with places to be and not much day left to be in them.",
 	  "type": "money",
 	  "amount": 30
 	},
 	{
-	  "text": "You look like someone who's running out of time. I get that. Thirty and I'm out of your way.",
-	  "yes_response": "Good. Go do whatever it is you're trying to do. I mean that.",
-	  "no_response": "Alright. I hope the rest of your day goes better than this part.",
+	  "text": "You look like a man who's running short on time. I know the look — I've worn it. Thirty, and I'm out of your way for good. That's a fair price for a clear road.",
+	  "yes_response": "Good. Go do whatever it is you're out here trying to do. I mean that one straight, no badge behind it.",
+	  "no_response": "Alright. I hope the rest of your day treats you kinder than this stretch of it did. Go on.",
 	  "type": "money",
 	  "amount": 30
 	}

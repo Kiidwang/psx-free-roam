@@ -1,76 +1,76 @@
 {
   "dialogues": [
     {
-      "text": "Hey. I've been wanting to see you. You look thin. Can you cover me for forty? I'll explain everything.",
-      "yes_response": "You're so good. I always forget how good you are.",
-      "no_response": "Oh. No, I — I thought we were past that. It's fine.",
+      "text": "Hey. I was hoping you'd walk by. You look thin — thinner than last time. Don't make that face at me. Can you cover me for forty? I'll explain all of it, I promise, just not standing here.",
+      "yes_response": "You're so good to me. I always forget how good you are, right up until you're being good to me again.",
+      "no_response": "Oh. No — I thought we were past the part where you had to think about it. It's fine. Forget I asked.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I called you yesterday. You didn't pick up. I'm not making it a thing. Forty?",
-      "yes_response": "Thank you. You always come through. Even when I'm being unfair.",
-      "no_response": "No. I know. You've had a lot. I know.",
+      "text": "I called you yesterday. Twice, but who's counting. You didn't pick up either time. I'm not going to make it a thing. I'm just going to make it a forty.",
+      "yes_response": "Thank you. You always come through, even when I've been unfair about it, which is — often, lately.",
+      "no_response": "No, I get it. You've had a lot on you. I can see it sitting on you. I'll ask someone else.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I've been thinking about us a lot lately. Not in a bad way. Just — a lot. And forty.",
-      "yes_response": "See that's what I mean. You just — you get it. You always get it.",
-      "no_response": "It's fine. It can wait. Everything can wait I guess.",
+      "text": "I've been thinking about us a lot this week. Not in a bad way — in the way you think about a song you used to know all the words to. And, also, forty.",
+      "yes_response": "See, that's the thing about you. You just get it. You never made me explain the difficult parts.",
+      "no_response": "It's fine. It can wait. Everything about us has always been very, very good at waiting.",
       "type": "money",
       "amount": 40,
       "requires": "helped_wife",
-      "alt_text": "You've got that look. Like there's somewhere you're supposed to be. Like someone's waiting. I'm not going to ask. Forty.",
-      "alt_yes_response": "Thanks. You don't owe me an explanation. You never did, really.",
-      "alt_no_response": "Right. Of course. Go on, then. She's waiting."
+      "alt_text": "You've got that look tonight. Like there's a room somewhere with someone in it, wondering where you are. I'm not going to ask whose. Forty, and I'll let you go to them.",
+      "alt_yes_response": "Thanks. You don't owe me the story. You never did, not really. Go on, then.",
+      "alt_no_response": "Right. Of course. Go — she's waiting. And I'm very good at being the thing people leave to get somewhere else."
     },
     {
-      "text": "Something happened and I'm not ready to talk about it but I need forty and I need you to not ask.",
-      "yes_response": "Thank you. I'll tell you when I can. I promise.",
-      "no_response": "Okay. I understand. I just — okay.",
+      "text": "Something happened. I'm not ready to lay it all out, and I'd rather you didn't pull on the thread. I need forty, and I need you to let me keep exactly one secret today.",
+      "yes_response": "Thank you. I'll tell you the whole of it when I can stand to hear myself say it. I promise I will.",
+      "no_response": "Okay. I understand. I just — okay. That's a lot of okays. I'll stop now.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "You've seemed different lately. I don't know how to say it. I'm not going to push. Forty?",
-      "yes_response": "I'm here. Whatever's going on. I'm not going anywhere.",
-      "no_response": "Right. Okay. I'll drop it. I always drop it.",
+      "text": "You've been different lately. Quieter in a way that isn't about me, which is new for us. I don't know how to name it and I'm not going to try. Forty?",
+      "yes_response": "I'm here. Whatever the quiet is about. I'm not going anywhere, even when it feels like you are.",
+      "no_response": "Right. Okay. I'll drop it. I'm a champion at dropping it, honestly. Undefeated.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I was going to plan something. A trip. For us. I need forty to put the deposit down.",
-      "yes_response": "I know it's a weird time. But I want us to have something to look forward to.",
-      "no_response": "Yeah. You're right. Maybe it's not the right moment.",
+      "text": "I was going to plan something. A trip — somewhere with a coastline, somewhere neither of us has ruined with a memory yet. I need forty to hold the dates.",
+      "yes_response": "I know the timing's strange. I just want there to be a thing out ahead of us. Something to walk toward.",
+      "no_response": "Yeah. You're right. Maybe a coastline is a lot to ask of a Tuesday. Maybe some other week.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I miss you. Even when you're right here. Is that strange to say? Forty.",
-      "yes_response": "I'm going to remember you said yes. I'm going to hold onto that.",
-      "no_response": "That kind of hurts. But I understand. I do.",
+      "text": "I miss you. Even right now, with you close enough to touch. Is that an insane thing to say to someone's face? Forty, by the way — sorry, the two things came out tangled together.",
+      "yes_response": "I'm going to keep this. The fact that you said yes while I was being strange. I'm going to hold onto it.",
+      "no_response": "That one stings a little. But I understand. I do. I'd probably say no to me too.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I'm having one of those days where I need you and I also need forty. Can you be both right now?",
-      "yes_response": "You're so good to me. I know I don't always say it.",
-      "no_response": "It's okay. I'll call someone else. About the money, not the other thing.",
+      "text": "It's one of those days where I need you and I need forty dollars and I honestly cannot tell you which one is the bigger ask. Can you be both of those for me right now?",
+      "yes_response": "You're so good to me. I know I don't say it in a way you can keep. I'll work on that.",
+      "no_response": "It's okay. I'll call someone about the money. The other thing — I'll just carry the other thing.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I trust you. Like, actually. And I need forty and I don't want to explain.",
-      "yes_response": "See. That's why. That's exactly why.",
-      "no_response": "I know. I know. It stings a little but I know.",
+      "text": "I trust you. Actually trust you, which I don't say lightly and have maybe never said sober. So: forty, and please don't make me explain why I need it.",
+      "yes_response": "See. That. That's exactly the reason. You let me keep my dignity even while I'm asking for things.",
+      "no_response": "I know. I know. It stings a little, but I know. You're allowed to say no to me.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I love you. I don't say it enough. And I need forty. This is both of those things at once.",
-      "yes_response": "I love you too. Come back soon. I mean it. Come back.",
-      "no_response": "The first part stands. Just so you know.",
+      "text": "I love you. I don't say it enough, and when I do it's usually fastened to something I need. Like now. I need forty. Both of those are true and I refuse to put them in order.",
+      "yes_response": "I love you too. Come back soon — and I mean it as more than the thing people say. Come back.",
+      "no_response": "The first part of what I said still stands. I just wanted that on the record before you go.",
       "type": "money",
       "amount": 40
     }

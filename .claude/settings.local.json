@@ -25,7 +25,13 @@
       "Bash(mv Scenes/* .)",
       "Bash(mv Player/* .)",
       "Bash(ls -la ps-1-free-roam/)",
-      "Bash(ls dialgoueprompt.txt readme.txt)"
+      "Bash(ls dialgoueprompt.txt readme.txt)",
+      "mcp__godot__stop_project",
+      "Bash(mkdir -p Fonts)",
+      "Bash(curl -sL -o Fonts/VT323-Regular.ttf \"https://github.com/google/fonts/raw/main/ofl/vt323/VT323-Regular.ttf\")",
+      "Bash(curl -sL -o Fonts/OFL.txt \"https://github.com/google/fonts/raw/main/ofl/vt323/OFL.txt\")",
+      "Read(//c/c/Users/User 01/Documents/GitHub/Game_Godot/**)",
+      "Read(//c/c/Users/User 01/Documents/GitHub/Game_Godot/Fonts/**)"
     ]
   }
 }

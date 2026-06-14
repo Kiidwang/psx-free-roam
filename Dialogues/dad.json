@@ -1,72 +1,72 @@
 {
   "dialogues": [
     {
-      "text": "I need thirty. Can't get into it right now.",
-      "yes_response": "I'll pay it back. You know I'm good for it.",
-      "no_response": "Fair enough.",
+      "text": "I need thirty. I'd rather not get into the why of it standing out here. You know I don't ask unless it's real.",
+      "yes_response": "I'll pay it back. You know I'm good for it. I've always been good for it, whatever else I haven't been good for.",
+      "no_response": "Fair enough. I'd have said the same at your age. Probably did, to my old man.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "Truck needs work. I keep putting it off. Thirty.",
-      "yes_response": "I'll get it sorted this week. Been meaning to.",
-      "no_response": "I'll manage. Always have.",
+      "text": "Truck needs work. The kind I used to do myself, in the driveway, before my hands stopped agreeing with me. Thirty gets it looked at.",
+      "yes_response": "I'll get it sorted this week. Been meaning to. I've been meaning to do a lot of things this week.",
+      "no_response": "I'll manage. Always have. The truck and me, we understand each other's bad habits.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I've been thinking about calling you more. Haven't done it. Can you spare thirty?",
-      "yes_response": "I'm going to call more. I mean that. Starting this week.",
-      "no_response": "Alright. That's alright.",
+      "text": "I've been thinking I should call you more. Thought it three or four times this month and didn't do it once. Can you spare thirty.",
+      "yes_response": "I'm going to call more. I mean that. Starting this week. Don't hold your breath, but — I mean it.",
+      "no_response": "Alright. That's alright. I had it coming, the no. I know how the math on that works.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "Your sister's been asking about you. She worries. Don't tell her I told you. Thirty.",
-      "yes_response": "She'd want to know you're okay. She just doesn't know how to say it.",
-      "no_response": "She'll worry anyway. That's what she does.",
+      "text": "Your sister's been asking after you. She worries — does it quietly, like your mother. Don't tell her I told you. Thirty.",
+      "yes_response": "She'd want to know you're alright. She just never learned the words for asking. Gets that from me.",
+      "no_response": "She'll worry regardless. That's the engine she runs on. Always has been.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I want to take your mother somewhere nice. Haven't done it in years. Thirty would help.",
-      "yes_response": "She'd like that. She doesn't ask for much. Never has.",
-      "no_response": "Maybe another time. It can wait.",
+      "text": "I want to take your mother somewhere with a tablecloth. Somewhere she has to think about what to wear. Haven't done that in years. Thirty would start it.",
+      "yes_response": "She'd like that. She doesn't ask for much. Never has, which is the part I keep failing to deserve.",
+      "no_response": "Maybe another time. It'll keep. We're good at keeping, your mother and me.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I'm not good at saying things. I never have been. You know that. Thirty.",
-      "yes_response": "I'm going to do better. I mean it. I should've been better.",
-      "no_response": "Alright. I understand.",
+      "text": "I'm not good at saying things. Never have been, you know that better than anyone. So I'll say the easy thing. Thirty.",
+      "yes_response": "I'm going to do better. I mean it. I should've been better while it counted for more.",
+      "no_response": "Alright. I understand. You don't owe me the yes. I'm aware of the books between us.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I got a call from the hospital. About billing. I covered it. I need thirty back.",
-      "yes_response": "Don't worry about that. You focus on getting through the day.",
-      "no_response": "I'll sort it. Don't worry about it.",
+      "text": "Got a call from the hospital. About the billing end of things, not the rest. I covered it so your mother wouldn't see it first. I need thirty back.",
+      "yes_response": "Don't you worry about that part. You focus on getting through the day. That's your whole job today.",
+      "no_response": "I'll sort it. Don't worry about it. That's a thing I can still do for this family. Let me.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I'm not good at this. Any of it. I want you to know I tried. Thirty.",
-      "yes_response": "You didn't get that from me. Being good at things. That's all you.",
-      "no_response": "Alright. I know.",
+      "text": "I'm not good at this. Any of it — the talking, the showing up, all of it. I want you to know I tried, in my way. Thirty.",
+      "yes_response": "You didn't get that from me. Being good at things, the soft kind. That's all you. All your own doing.",
+      "no_response": "Alright. I know. I'm not going to argue the verdict. I helped write it.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I should've come to more of your things. I know that. I know. Thirty.",
-      "yes_response": "I'll make it up to you. I don't know how yet. But I will.",
-      "no_response": "Yeah. I hear you.",
+      "text": "I should've come to more of your things. The games, the school nights, all of it. I know that. I've always known it. Thirty.",
+      "yes_response": "I'll make it up to you somehow. I don't know how yet. But I've got it in mind now, if that counts.",
+      "no_response": "Yeah. I hear you. That's the right answer, probably. Doesn't make it land easy.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I know I haven't been — I don't know how to finish that. Thirty.",
-      "yes_response": "You're a good kid. You always have been. I should've said that more.",
-      "no_response": "Alright. Take care of yourself.",
+      "text": "I know I haven't been — I don't have the end of that sentence. Never have. Thirty, and we'll let the sentence go unfinished like the rest of them.",
+      "yes_response": "You're a good kid. You always have been. I should've said it more, while it could've done you some good.",
+      "no_response": "Alright. Take care of yourself out there. That part I do know how to say.",
       "type": "money",
       "amount": 30
     }

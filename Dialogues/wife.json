@@ -1,72 +1,72 @@
 {
   "dialogues": [
     {
-      "text": "The account is low. I've been covering things I can't cover. I just need a hundred.",
-      "yes_response": "Thank you. I've been doing this alone for a while. I don't know if you've noticed.",
-      "no_response": "Okay. I'll figure it out. I always figure it out.",
+      "text": "The account's been red since Tuesday. I keep moving money between things that are already empty. I'm not asking you to fix it — just a hundred, to make the math lie for one more week.",
+      "yes_response": "Thank you. I've carried this by myself longer than I've let on. I kept thinking you'd notice without me having to say it.",
+      "no_response": "Okay. No — it's fine. I'll figure it out. That's becoming my whole personality lately, figuring it out.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "You look pale. You've looked pale for weeks. Don't — I'm not asking about it. Just the hundred.",
-      "yes_response": "Thank you. I'm not going to ask about the rest today.",
-      "no_response": "I know. It's fine. I said I'd handle it.",
+      "text": "You've been pale for weeks. I won't ask about it, because every time I do you go somewhere I can't follow. So I'll ask for the hundred instead. That, I can follow.",
+      "yes_response": "Thank you. I'll keep my questions to myself today. I'm getting practiced at it.",
+      "no_response": "I know. It's fine. I said I'd handle it, and I will. I always do.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I made an appointment I shouldn't have. I can't cancel it. A hundred would cover it.",
-      "yes_response": "I'll tell you what it was for when I get back. Maybe.",
-      "no_response": "I'll cancel it. It can wait. I'm getting good at that.",
+      "text": "I made an appointment I shouldn't have made, and now I can't bring myself to cancel it. A hundred covers the part of it I'm willing to talk about out loud.",
+      "yes_response": "Maybe I'll tell you what it was for when you're back. Maybe I'll have found a way to say it by then.",
+      "no_response": "I'll cancel it. It can wait. Everything in this house has learned how to wait.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I haven't said what I want to say in a long time. I know that. Just — a hundred.",
-      "yes_response": "I'm going to figure out how to say it. I will. I just need a little more time.",
-      "no_response": "Alright. It can wait. It's been waiting.",
+      "text": "There are things I've meant to say to you for about a year now. This isn't the moment for them. The moment is a hundred dollars, and me pretending that's all this is.",
+      "yes_response": "I'm going to find the words eventually. I will. I just need a little more time than I think I have.",
+      "no_response": "Alright. It can keep. God knows it's kept this long already.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I called your doctor. They said to call them. You didn't tell me that. I need a hundred.",
-      "yes_response": "I'm not going to pretend I didn't hear it. You should've told me.",
-      "no_response": "Okay. Okay. I'm not going to push.",
+      "text": "I called your doctor's office. They told me you should call them back. You never mentioned that to me. I need a hundred, and I need you not to look too closely at my face right now.",
+      "yes_response": "I'm not going to pretend I didn't hear what I heard. But not today. Today I'll just take the hundred.",
+      "no_response": "Okay. Okay. I won't push. I've gotten very good at not pushing.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I've been sleeping on my side of the bed. I don't know when that started. A hundred.",
-      "yes_response": "I'm not trying to make this about me. I just — I needed to say that.",
-      "no_response": "I know. I know you can't right now.",
+      "text": "I've started sleeping on my own side of the bed again. I don't remember deciding to. A hundred is the easy thing to ask you for tonight, so it's the thing I'm asking.",
+      "yes_response": "I'm not trying to make this about me. I just needed to say it to someone, and you're the only someone I've got.",
+      "no_response": "I know. I know you can't right now. I knew that before I asked.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I bought something for the house. I thought it would help. I need the hundred back.",
-      "yes_response": "I wanted something to feel normal. Just one thing. I thought that might do it.",
-      "no_response": "I'll return it. Things don't have to be the same as they were.",
+      "text": "I bought something for the house. A lamp, of all things. I thought a warmer light might make the rooms feel less like they're waiting for news. I need the hundred back before it bounces.",
+      "yes_response": "I just wanted one thing to feel ordinary. One stupid, ordinary thing. I thought a lamp might manage it.",
+      "no_response": "I'll return it. The rooms can stay how they are. They were always going to.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I've been thinking about what comes after. I'm not ready to talk about it. Just the hundred.",
-      "yes_response": "Thank you. We'll talk about the rest when I can.",
-      "no_response": "Okay. I know you're tired. I know.",
+      "text": "I've been thinking about what comes after. Not in a dark way — in a planning way, which is somehow worse. I'm not ready to say any of it. Just the hundred.",
+      "yes_response": "Thank you. We'll talk about the rest when there's a version of me that can. There will be one.",
+      "no_response": "Okay. I know you're tired. I can see exactly how tired you are. I know.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I don't know how to do this. Any of it. A hundred would help with the part I can control.",
-      "yes_response": "Thank you. I love you. I don't know if I've been saying it enough.",
-      "no_response": "Alright. I love you. That's not conditional on the money.",
+      "text": "I don't know how to do this. Any of it. There's no manual for the year we're having. A hundred at least fixes the one part of it that comes with a number attached.",
+      "yes_response": "Thank you. I love you. I keep assuming you know, then worrying that assuming isn't the same as saying it.",
+      "no_response": "Alright. I love you. That part doesn't depend on the money. None of the real parts do.",
       "type": "money",
       "amount": 100
     },
     {
-      "text": "I'm not going to say goodbye today. I'm just asking for a hundred. That's all this is.",
-      "yes_response": "Good. That's all this is. We're not doing anything else today.",
-      "no_response": "Okay. Okay. I'll be here when you get back.",
+      "text": "I'm not going to say goodbye to you today. I want that on the record. I'm only asking for a hundred dollars. That is the entire size of what this is.",
+      "yes_response": "Good. That's all this is. We're not doing anything bigger than this today. I won't let us.",
+      "no_response": "Okay. Okay. I'll be here when you get back. I'll leave a light on. The new lamp, even.",
       "type": "money",
       "amount": 100
     }

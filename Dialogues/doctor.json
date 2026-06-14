@@ -1,79 +1,79 @@
 {
   "dialogues": [
     {
-      "text": "Sit. I'll be honest with you, because no one else here will. Every conversation you've had today has cost you something you can't get back. The fog isn't weather. It's what's left when your time runs out. Do you understand what I'm telling you?",
-      "yes_response": "Then you already know more than most of them do. Spend the hours on the people worth them. That's the only prescription I have.",
-      "no_response": "You will. Before the day is done, you will. I'm sorry that's the only thing I can promise you.",
+      "text": "Sit. I'll be honest with you, because I've watched everyone else in your life decide not to be. Every conversation you've had today has cost you something you can't earn back. The fog isn't weather. It's what's left when a person's time runs out. Do you understand what I'm telling you?",
+      "yes_response": "Then you already know more than most of them ever will. Spend the hours that are left on the people worth them. That's the only prescription I have that's worth the paper.",
+      "no_response": "You will. Before the day is finished with you, you will understand it completely. I'm sorry that's the one thing in here I can promise you for certain.",
       "type": "truth_reveal",
       "amount": 0
     },
     {
-      "text": "Your co-pay from last week. I know how this sounds, today of all days. Sixty.",
-      "yes_response": "Thank you. The clock doesn't stop for either of us. But this helps.",
-      "no_response": "It'll wait. You can't, though. Don't spend what's left of the day avoiding me.",
+      "text": "Your co-pay, from last week's visit. I know exactly how it sounds, asking today of all days. The system doesn't pause its little machinery for a diagnosis. Sixty.",
+      "yes_response": "Thank you. The clock doesn't stop for either of us — not for me writing the bill, not for you paying it. But this helps keep the lights on for the next frightened person.",
+      "no_response": "It'll wait. You, however, cannot. Don't spend a single one of your remaining hours in here, avoiding the look on my face.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "I've watched a lot of people walk through that fog. They all think they have more time than they do. Your portion of the lab work is sixty.",
-      "yes_response": "Good. Now go. Don't waste the daylight in here with me.",
-      "no_response": "I understand. The bill is the smallest thing you'll lose today. Keep that in mind.",
+      "text": "I've watched a great many people walk into that fog over the years. To the last one, they believed they had more time than the chart in my hand said they did. Your portion of the lab work comes to sixty.",
+      "yes_response": "Good. Now go. Don't waste what's left of the daylight standing in here with me and my paperwork.",
+      "no_response": "I understand. The bill is the smallest thing you'll lose today, by a wide margin. I'd ask you to keep that in proportion.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "Every hour you give someone is an hour the fog takes back. I won't pretend the billing is separate from that. Sixty.",
-      "yes_response": "Thank you. Choose carefully who gets the rest of them.",
-      "no_response": "Alright. Just understand what each visit is actually costing you now.",
+      "text": "Every hour you give to someone out there is an hour the fog quietly takes back from your side of the ledger. I won't insult you by pretending the billing sits separate from that arithmetic. Sixty.",
+      "yes_response": "Thank you. Choose carefully who gets the rest of those hours. That's the only medicine left that does anything.",
+      "no_response": "Alright. Just understand, clearly, what each of these visits is actually costing you now. Go in with your eyes open.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "The imaging came back. I could explain it, but the truth is simpler than the chart. You're running out. The fee is sixty.",
-      "yes_response": "Thank you. I wish the medicine were as honest as the bill.",
-      "no_response": "I won't push. You've heard enough hard things from me for one day.",
+      "text": "The imaging came back this morning. I could walk you through every shadow on it, name each one in Latin. But the truth is simpler than the chart, and kinder said plainly: you're running out. The fee is sixty.",
+      "yes_response": "Thank you. I only wish the medicine I had to offer were as honest as the bill I'm handing you.",
+      "no_response": "I won't push it. You've heard enough hard, true things from me for one morning. Sixty can wait until your hands are steadier.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "The others out there — your mother, your wife, the rest — they're on the same clock you are. They just don't know it. Sixty for the consult.",
-      "yes_response": "Good. Then go see them while they're still here to see.",
-      "no_response": "I understand. Go to them anyway. The money was never the point.",
+      "text": "The others out there — your mother, your wife, the rest of them making their small requests — they're all on the very same clock you are. They simply haven't been told. Sixty, for the consult.",
+      "yes_response": "Good. Then go and see them while they're still here to be seen, and you're still here to see them.",
+      "no_response": "I understand. Go to them anyway, money or no money. The sixty was never the point of any of this.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "Facility fee, billed separately. The system doesn't care that the fog is closing in. Sixty. I'm sorry.",
-      "yes_response": "Thank you. Now stop spending your hours in a waiting room.",
-      "no_response": "Fair. Go. The day is shorter than you think.",
+      "text": "Facility fee. Billed separately, in its own cold little envelope. The building doesn't care that the fog is closing in on one of the bodies passing through it. Sixty. I'm sorry — genuinely, not professionally.",
+      "yes_response": "Thank you. Now stop spending your irreplaceable hours in a waiting room with last year's magazines.",
+      "no_response": "Fair. More than fair. Go. The day is a good deal shorter than it feels from inside these walls.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "I can keep treating the symptoms. I can't treat the fog. Your deductible is sixty. I wish I had something better to offer.",
-      "yes_response": "Thank you. Spend the rest on the people, not the paperwork.",
-      "no_response": "I understand. There's no good way to hear any of this.",
+      "text": "I can keep treating the symptoms — the cough, the tiredness, the small failures of the machine. What I cannot treat, with anything in this building, is the fog itself. Your deductible is sixty. I wish I had something better to set on the counter.",
+      "yes_response": "Thank you. Spend the rest of what you've got on the people, not the paperwork. The paperwork outlives all of us anyway.",
+      "no_response": "I understand. There's no good way to hear any of this, and no good order to hear it in. Keep your sixty.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "You keep coming back to me. I'm flattered, but I'm the wrong door. The hours are better spent out there. Sixty, and then go.",
-      "yes_response": "Good. Now leave. I mean that kindly.",
-      "no_response": "Alright. Leave anyway. Please. Go find them.",
+      "text": "You keep finding your way back to my door. I'm flattered, in a tired sort of way, but I'm the wrong door and I think you know it. Your hours are better spent on almost any other threshold. Sixty, and then go.",
+      "yes_response": "Good. Now leave. I mean that as the kindest thing I've said to anyone today. Out you go.",
+      "no_response": "Alright. Leave anyway. Please. Go and find the faces you actually came outside to find.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "Annual fee. It assumes you'll have a year. We both know better. Sixty.",
-      "yes_response": "Thank you. We'll make what's left count. That part I can promise.",
-      "no_response": "It can wait. You can't. Go.",
+      "text": "Annual fee. The form assumes, in its cheerful little way, that you'll be here in a year to use the rest of it. We both know what the chart says about that assumption. Sixty.",
+      "yes_response": "Thank you. We'll make what's left of it count for something. That part I can actually promise, and I don't promise lightly.",
+      "no_response": "It can wait. You cannot. I'll say it as many times as I have to. Go.",
       "type": "money",
       "amount": 60
     },
     {
-      "text": "I've gone over every option. Every one. There's a single thing left. Experimental. High risk. One in ten. More time, if it works. It's your call, and only yours.",
-      "yes_response": "We start tonight. Whatever happens — I'm glad you fought the fog instead of waiting for it.",
-      "no_response": "I understand. Then we'll make sure the hours you have left are good ones. That's a promise.",
+      "text": "I've gone over every option twice, and then a third time when I didn't trust the first two. There's a single thing left on the table. Experimental. High risk — one in ten, and I won't pretty up that number for you. More time, if it holds. It's your call, and only ever yours.",
+      "yes_response": "Then we start tonight. Whatever the morning brings — I'm glad you chose to fight the fog instead of standing still and letting it arrive. That choice mattered, even if the odds don't honor it.",
+      "no_response": "I understand completely. Then we'll make certain the hours you do have are good ones — clear, and yours, and spent where you want them. That's a promise I can keep without a single coin flip.",
       "type": "surgery_offer",
       "amount": 0
     }

@@ -1,72 +1,72 @@
 {
   "dialogues": [
     {
-      "text": "You look like you need this more than I do. Take the eighty. No strings.",
-      "yes_response": "Good. Nobody needs to know where it came from.",
-      "no_response": "Your call. Pride's expensive though. Keep that in mind.",
+      "text": "You look like you need this more than I do, and I don't need it at all. Take the eighty. No strings, no story attached — I'm not in the story business.",
+      "yes_response": "Good. Nobody needs to know where it came from. Least of all you. Put it away and walk easy.",
+      "no_response": "Your call. Pride's an expensive habit, though. I've watched it bury better men than both of us.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "I don't ask questions. I don't want answers. Eighty. Take it.",
-      "yes_response": "Smart. Walk away clean.",
-      "no_response": "Different people make different choices. I respect that.",
+      "text": "I don't ask questions, and I don't go looking for answers. Saves everybody the trouble. Eighty. Take it before I change my mood about it.",
+      "yes_response": "Smart. Walk away clean. Clean's the only thing in this neighborhood worth holding onto.",
+      "no_response": "Different people make different choices with their pride. I've made my peace with respecting it.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "I've seen worse situations than yours. Not many. Take the eighty.",
-      "yes_response": "Right answer. Now go handle what you came here to handle.",
-      "no_response": "You sure? Look at yourself. Take the money.",
+      "text": "I've seen worse situations than the one you're wearing on your face. Not many, I'll grant you. But a few. Take the eighty.",
+      "yes_response": "Right answer. Now go handle whatever it is you came down here to handle. Don't let me keep you.",
+      "no_response": "You sure about that? Take a look at yourself. That's not a face that should be turning down money.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "I've got eighty here that needs a new home. Could be yours.",
-      "yes_response": "Good. Clean transaction. That's all this was.",
-      "no_response": "Your loss. Somebody else'll take it.",
+      "text": "I've got eighty here that's been looking for a new home all week. Restless money. Could be yours, if you'll have it off my hands.",
+      "yes_response": "Good. Clean transaction, nothing owed in either direction. That's how I like to leave a thing.",
+      "no_response": "Your loss, friend. Money like this doesn't sit lonely for long. Somebody else'll give it a home.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "I don't do charity. But I do recognize when someone's on a clock. Eighty.",
-      "yes_response": "Yeah. I can tell. Take it. You'll need it before the day's out.",
-      "no_response": "Suit yourself. I've got other places to be.",
+      "text": "I don't do charity — charity's got conditions, and I've got none. But I do know how to recognize a man on a clock when one walks past me. Eighty.",
+      "yes_response": "Yeah. I can tell. Take it. You'll want it before this day's finished with you, trust me on that.",
+      "no_response": "Suit yourself. I've got other corners to be standing on. Good luck with the clock.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "This is clean. Whatever you think about me — this money is clean. Eighty.",
-      "yes_response": "Good. What you do with it is your business.",
-      "no_response": "Lot of principles for someone who looks the way you look.",
+      "text": "This is clean money. Whatever you've decided about me from across the street — this part of it is clean. Eighty, and I'll swear to that much.",
+      "yes_response": "Good. What you do with it after is your business, and your business stays yours.",
+      "no_response": "That's a lot of principle for a man who looks the way you look right now. I'll allow it, though.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "I'm not going to pretend I don't see what's going on with you. Eighty. Take it.",
-      "yes_response": "I thought so. Go.",
-      "no_response": "Okay. But come back if you change your mind. No judgment.",
+      "text": "I'm not going to insult you by pretending I don't see what's going on with you. It's written plain. Eighty. Take it and let's not name the thing.",
+      "yes_response": "Thought so. Go on, then. The day's not getting any longer while you stand here being polite.",
+      "no_response": "Okay. But the offer keeps. You change your mind, you know which corner. No judgment in it.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "You need it. I've got it. The rest is just noise. Eighty.",
-      "yes_response": "Now walk. Don't look back at me.",
-      "no_response": "They always come back. I'll be here.",
+      "text": "You need it. I've got it. Everything past those two facts is just noise people make to feel complicated. Eighty.",
+      "yes_response": "Now walk. Don't look back at me — looking back's how people remember faces they shouldn't.",
+      "no_response": "They always come back around eventually. I'll be right here when you do. I'm not hard to find.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "I don't care what you're dealing with. I care that you're dealing with it. Eighty.",
-      "yes_response": "Go handle it. That's the whole point.",
-      "no_response": "Alright. Good luck. I mean that.",
+      "text": "I don't care what you're carrying. Genuinely, not my business. What I care about is that you're still upright and carrying it. Eighty toward that.",
+      "yes_response": "Go handle it, whatever it is. That's the whole point of money — handling things. Go.",
+      "no_response": "Alright. Good luck out there. And I mean that one straight, no angle on it.",
       "type": "money",
       "amount": 80
     },
     {
-      "text": "Last time I'm offering. Eighty. We don't have to be anything to each other.",
-      "yes_response": "Good. We're not. Now go.",
-      "no_response": "Alright. Take care of yourself out there.",
+      "text": "Last time I'm putting it on offer. Eighty. We don't have to be anything to each other for it — not friends, not even names. Just take it.",
+      "yes_response": "Good. We're not anything, and that's clean. Now go be something to whoever's waiting on you.",
+      "no_response": "Alright. Take care of yourself out there. The fog doesn't check a man's pride before it comes in.",
       "type": "money",
       "amount": 80
     }

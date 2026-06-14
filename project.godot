@@ -12,7 +12,7 @@ config_version=5
 
 config/name="PS1_FreeRoam"
 run/main_scene="res://World.tscn"
-config/features=PackedStringArray("4.6", "Forward Plus")
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
@@ -27,6 +27,10 @@ window/stretch/scale_mode="integer"
 [dotnet]
 
 project/assembly_name="PS1_FreeRoam"
+
+[gui]
+
+theme/custom_font="res://Fonts/VT323-Regular.ttf"
 
 [physics]
 

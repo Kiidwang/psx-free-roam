@@ -1,72 +1,72 @@
 {
   "dialogues": [
     {
-      "text": "dude you look terrible. like actually. are you sleeping? anyway — can you spot me twenty?",
-      "yes_response": "you're the best. seriously. also drink some water you look like a ghost.",
-      "no_response": "no worries man I'll ask somebody else. but seriously get some sleep.",
+      "text": "dude. you look genuinely terrible, and I mean that with love. are you sleeping at all? like at all? anyway — and I hate that there's an anyway — can you spot me twenty?",
+      "yes_response": "you're the best, seriously, top three people alive. also please drink some water, you look like a photograph of yourself.",
+      "no_response": "no worries man, I'll ask somebody else. but the sleep thing stands. that wasn't a setup for the twenty, I actually mean it.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "okay I know you've had a lot going on. I respect that. I'm not going to ask about it. twenty?",
-      "yes_response": "legend. also I'm here if you ever want to talk. I know I don't say that enough.",
-      "no_response": "nah it's cool. you've got enough going on. I'll sort it.",
+      "text": "okay. I know you've got a lot going on right now. I can tell, I'm not blind. I respect it, I'm not going to dig into it. but also, in a small voice, twenty?",
+      "yes_response": "legend. and hey — I'm here if you ever want to actually talk. I know I don't say that in a way that sounds real, but it is.",
+      "no_response": "nah it's cool, honestly. you've got enough stacked on you. I'll sort the twenty. don't even think about it.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "I feel like we haven't hung out in forever. I miss you dude. also I need twenty.",
-      "yes_response": "okay but we're actually hanging out this week. I mean it this time.",
-      "no_response": "nah it's fine. we'll figure it out when things calm down for you.",
+      "text": "I feel like we haven't actually hung out in forever. like properly, not just crossing paths. I miss you, man, that's a real sentence I'm saying. also I need twenty.",
+      "yes_response": "okay but we're actually hanging out this week. I'm putting it in the phone. I mean it this time, for real.",
+      "no_response": "nah it's fine, it's fine. we'll figure it out when things calm down for you. they will. they have to.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "remember when you used to call me back? we were so young. twenty bucks?",
-      "yes_response": "I'm kidding. kind of. not about the twenty though.",
-      "no_response": "okay fair. I'm still kidding. mostly.",
+      "text": "remember when you used to call me back? same day, even? god, we were so young. anyway I'm holding that over you for exactly twenty bucks.",
+      "yes_response": "I'm kidding. mostly. like seventy percent kidding. not about the twenty though, that part was sincere.",
+      "no_response": "okay, fair, that's fair. I'm still kidding. probably. the percentages are getting away from me.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "I heard something second-hand and I didn't want to bring it up but like — are you okay? twenty.",
-      "yes_response": "okay. okay. I'm not going to push. I just — I worry about you.",
-      "no_response": "no I get it. just. I'm around. you know that right?",
+      "text": "so I heard something second-hand and I told myself I wasn't going to bring it up and here I am bringing it up like an idiot — are you okay? like actually okay? twenty, and you can ignore the rest.",
+      "yes_response": "okay. okay, I'm not going to push on it. I just — I worry about you, man. that's allowed, right. I'm allowed.",
+      "no_response": "no, I get it, I do. just. I'm around. you know that, right? like you actually know it?",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "you look like you haven't eaten. have you eaten? anyway. twenty. I'll buy you something.",
-      "yes_response": "okay we're getting food right now. non-negotiable. you need it.",
-      "no_response": "okay at least eat something later. I'm serious. you look rough.",
+      "text": "you look like you haven't eaten today. have you eaten today? don't answer that, I can see the answer. give me twenty and I'll turn it into a sandwich for you, this is a good deal.",
+      "yes_response": "okay we're getting food right now, that's non-negotiable, I'm not asking. you need it, look at you.",
+      "no_response": "okay but at least eat something later, I'm serious, I'll text you about it and everything. you look rough, man.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "you're one of like three people I actually like. I hope you know that. also twenty.",
-      "yes_response": "I mean it. okay come on let's go do something I'm bored.",
-      "no_response": "you know I still mean the first part right. okay I'll get someone else.",
+      "text": "you're one of like three people I actually like. genuinely like, not just tolerate from history. I hope you know where you rank. also, smaller note, twenty.",
+      "yes_response": "I mean it, the ranking thing. okay come on, let's go do something, I'm bored and you look like you could use a distraction.",
+      "no_response": "you know the first part still stands though, right? the ranking? okay, okay, I'll find someone else for the twenty.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "twenty. quick. I can't explain right now but I'll explain later and you'll totally get it.",
-      "yes_response": "okay I love you. don't make it weird. thank you.",
-      "no_response": "okay that's fair. I wouldn't explain either in your shoes.",
+      "text": "twenty, quick, I can't get into it right now but I'll explain the whole thing later and you'll totally get it and probably laugh. trust the process.",
+      "yes_response": "okay I love you, don't make it weird, thank you, the process thanks you, everyone thanks you.",
+      "no_response": "okay that's fair, honestly, I wouldn't explain it either if I were standing where you're standing. no notes.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "I know today's been a lot. I can see it on your face. I'm not going to ask. just twenty.",
-      "yes_response": "thank you. I'm here if you need anything. I know I'm asking for money but I mean it.",
-      "no_response": "nah it's good. hey. you good? like actually?",
+      "text": "I know today's been a lot. I can read it right off your face, you've never been able to hide anything from me. I'm not going to ask. just twenty, and a fist bump if you've got one in you.",
+      "yes_response": "thank you, man. I'm here if you need anything, and yeah I know I'm literally asking you for money right now, but I still mean it.",
+      "no_response": "nah it's all good. hey — you good though? like under the face, are you good? you can tell me you're not.",
       "type": "money",
       "amount": 20
     },
     {
-      "text": "you're the only person I can ask and I just — I don't want to lose track of you. twenty bucks.",
-      "yes_response": "hey. when this is all over — whatever this is — we're getting drinks. promise me.",
-      "no_response": "I'll figure it out. but hey. I mean what I said. don't disappear on me.",
+      "text": "you're honestly the only person I can ask, and not just for the money. I don't — I don't want to lose track of you, man. that's the actual thing. twenty bucks, and don't disappear.",
+      "yes_response": "hey. when this is all over — whatever this even is — we're getting drinks and you're telling me everything. promise me that.",
+      "no_response": "I'll figure the twenty out. but hey, the rest of it, I mean it. don't disappear on me. I'd notice. I'd really notice.",
       "type": "money",
       "amount": 20
     }

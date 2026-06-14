@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bsnrswea71rcn"]
 
-[ext_resource type="PackedScene" uid="uid://d2holoq8sgi7y" path="res://simple-character-psx.glb" id="2_model"]
+[ext_resource type="PackedScene" uid="uid://bce68omhk6xse" path="res://simple-character-psx.glb" id="2_model"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1"]
 radius = 0.4

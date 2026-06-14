@@ -1,72 +1,72 @@
 {
   "dialogues": [
     {
-      "text": "The pharmacy keeps calling. I've been covering it for weeks and I just — I need thirty.",
-      "yes_response": "Thank you. I didn't know how to ask. I never know how to ask you.",
-      "no_response": "No. Of course. I'll sort something out. I always do.",
+      "text": "The pharmacy keeps calling the house. I've been covering it for weeks out of the grocery money, and I just — I need thirty. I hate that I need thirty.",
+      "yes_response": "Thank you. I didn't know how to ask. I never seem to know how to ask you for anything.",
+      "no_response": "No. Of course. I'll sort something out. I always sort something out eventually.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "The car's making that sound again. I'm scared to drive at night. Can you help me?",
-      "yes_response": "That's a relief. I've been putting it off. I keep putting things off lately.",
-      "no_response": "It's probably nothing. I'll wait a little longer.",
+      "text": "The car's making that sound again, the low one. I've started being scared to drive it after dark. Can you help me with it? Thirty would cover the look-over.",
+      "yes_response": "That's a relief. I've been putting it off. I keep putting everything off lately, I've noticed.",
+      "no_response": "It's probably nothing. A belt, or my nerves. I'll wait a little longer and see.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "There's a bill that came. I don't want to go into the details. I just need thirty.",
-      "yes_response": "Thank you. That's one less thing. I have too many things.",
-      "no_response": "I'll sort it. Don't worry about me. I'll sort it.",
+      "text": "There's a bill that came in a window envelope. I don't want to go into the details of it, I just want it to stop existing. I need thirty.",
+      "yes_response": "Thank you. That's one less thing on the pile. I have far too many things on the pile.",
+      "no_response": "I'll sort it. Don't worry about me, sweetheart. I'll sort it. That's my job, not yours.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I haven't been sleeping. I keep thinking. I just need thirty and I'll stop bothering you.",
-      "yes_response": "You're good. You've always been good. I don't say that enough.",
-      "no_response": "No. Don't worry. I shouldn't have said anything.",
+      "text": "I haven't been sleeping. I lie there and I think, and the thinking has a direction I don't like. I just need thirty and then I'll stop bothering you with all this.",
+      "yes_response": "You're good. You've always been good, since you were small. I don't say that to you nearly enough.",
+      "no_response": "No. Don't worry. I shouldn't have said any of that part. Forget the part that wasn't about money.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I want to get something for the house. For when people visit. To make things feel normal. Thirty.",
-      "yes_response": "I want things to look right. I need things to feel like they used to.",
-      "no_response": "It can wait. Things don't have to be perfect.",
+      "text": "I want to get something nice for the house. For when people come by — so it looks like a place where things are alright. I'd need thirty for it.",
+      "yes_response": "I want things to look right when they visit. I need it to feel like it used to feel in here.",
+      "no_response": "It can wait. Things don't have to be perfect for people. I keep forgetting that.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I keep starting sentences I don't know how to finish. Can you just — thirty?",
-      "yes_response": "Thank you. I don't want to talk about the rest. Not today.",
-      "no_response": "Okay. That's okay. I'll figure it out.",
+      "text": "I keep starting sentences I don't have endings for. I do it all day now, to the cat, to the kettle. Can you just — thirty, and I won't try to finish this one.",
+      "yes_response": "Thank you. I don't want to talk about the rest of it. Not today. Today let's just do the thirty.",
+      "no_response": "Okay. That's okay. I'll work it out. The sentence and the thirty, both.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I called you three times last week. I know you're busy. I just need thirty.",
-      "yes_response": "That's all I needed. I'm sorry I brought it up. I love you.",
-      "no_response": "No, I know. I know you're dealing with a lot. I know.",
+      "text": "I called you three times last week. I know how busy you are, I'm not counting it against you. I just need thirty, and then you can get back to your day.",
+      "yes_response": "That's all I needed. I'm sorry I made it into a whole phone call. I love you. Go on.",
+      "no_response": "No, I know. I know you're dealing with more than you say. I do know that. Go.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I don't know what to say to you anymore. I don't know how to help. Thirty — can you spare thirty?",
-      "yes_response": "Thank you. I'll figure out the rest. I always do.",
-      "no_response": "Okay. I know. It's okay.",
+      "text": "I don't know what to say to you anymore. I don't know how to be useful to you. Thirty is a thing I understand — can you spare thirty?",
+      "yes_response": "Thank you. I'll figure out the rest of it. The not-knowing-what-to-say part. I always do, eventually.",
+      "no_response": "Okay. I know. It's okay. You don't have to carry my part of it too.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "I bought you something. I can't afford it. I need thirty back, or it bounces. Don't ask me why I bought it.",
-      "yes_response": "I saw it and I thought of you and I just — I'm sorry. I love you so much.",
-      "no_response": "I'll return it. It was a stupid idea. I don't know what I was thinking.",
+      "text": "I bought you something. I couldn't afford it, and I bought it anyway, and now I need thirty back or it bounces. Please don't ask me why I did it. I don't have a good answer.",
+      "yes_response": "I saw it in the window and I thought of you and I just — I'm sorry. I love you more than is sensible.",
+      "no_response": "I'll return it. It was a foolish thing to do. I don't know what came over me, standing there.",
       "type": "money",
       "amount": 30
     },
     {
-      "text": "Just thirty. Please. I don't want to explain. I love you and I just need thirty.",
-      "yes_response": "Thank you. I love you. You know I love you. You've always known.",
-      "no_response": "I know. It's okay. I know.",
+      "text": "Just thirty. Please. I don't want to explain it and I don't want to dress it up. I love you, and I need thirty, and today those are the only two things I'm sure of.",
+      "yes_response": "Thank you. I love you. You know I love you. You've always known, even when I was no good at showing it.",
+      "no_response": "I know. It's okay. I know. Come by tomorrow if you can. Just to sit.",
       "type": "money",
       "amount": 30
     }

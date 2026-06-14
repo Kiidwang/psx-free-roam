@@ -24,12 +24,26 @@ public partial class NPC : Node3D
 	private Node3D   _player      = null;
 	private Camera3D _playerCamera = null;
 
+	private AudioStreamPlayer _sfx;
+	private AudioStream        _sfxYes;
+	private AudioStream        _sfxNo;
+
 	private bool  _playerInRange  = false;
 	private bool  _dialogueActive = false;
 	private int   _noCount        = 0;
 	private int   _yesCount       = 0;
 	private bool  _despawning     = false;
 	private float _despawnTimer   = 0f;
+
+	// Duplicated, alpha-enabled copies of the model's materials, faded on despawn.
+	private readonly List<(BaseMaterial3D mat, Color baseColor)> _fadeMaterials = new();
+
+	public bool IsDespawning => _despawning;
+
+	// Bioluminescent floor ring — a wayfinding marker so NPCs stay findable once
+	// the fog thickens and the day darkens. Unshaded, so it ignores the light level.
+	private StandardMaterial3D _markerMat;
+	private float              _markerPulse = 0f;
 
 	private List<DialogueEntry> _dialogues     = new();
 	private int                 _dialogueIndex = 0;
@@ -86,26 +100,32 @@ public partial class NPC : Node3D
 		panel.AnchorRight  = 1f;
 		panel.AnchorTop    = 1f;
 		panel.AnchorBottom = 1f;
-		panel.OffsetLeft   =  40f;
-		panel.OffsetRight  = -40f;
-		panel.OffsetTop    = -180f;
-		panel.OffsetBottom = -20f;
+		panel.OffsetLeft   =  48f;
+		panel.OffsetRight  = -48f;
+		panel.OffsetTop    = -210f;
+		panel.OffsetBottom = -24f;
 
 		_choiceLabel = new Label();
 		_choiceLabel.SetAnchorsAndOffsetsPreset(Control.LayoutPreset.BottomLeft);
-		_choiceLabel.OffsetLeft   =  16f;
-		_choiceLabel.OffsetBottom = -8f;
-		_choiceLabel.OffsetTop    = -48f;
-		_choiceLabel.OffsetRight  =  400f;
-		_choiceLabel.AddThemeFontSizeOverride("font_size", 18);
+		_choiceLabel.OffsetLeft   =  24f;
+		_choiceLabel.OffsetBottom = -12f;
+		_choiceLabel.OffsetTop    = -52f;
+		_choiceLabel.OffsetRight  =  420f;
+		_choiceLabel.AddThemeFontSizeOverride("font_size", 20);
 		_choiceLabel.AddThemeColorOverride("font_color", new Color(0.4f, 1f, 0.4f, 1f));
 		_choiceLabel.Text    = "[ Y ] Yes       [ N ] No";
 		_choiceLabel.Visible = false;
 		panel.AddChild(_choiceLabel);
 
+		_sfx = new AudioStreamPlayer();
+		AddChild(_sfx);
+		_sfxYes = GD.Load<AudioStream>("res://SFX/NPC_Yes.wav");
+		_sfxNo  = GD.Load<AudioStream>("res://SFX/NPC_No.wav");
+
 		LoadDialogues();
 		AddToGroup("npc");
 		UpdatePromptLabel();
+		CreateFloorMarker();
 
 		if (ModelPath != "")
 			LoadModel();
@@ -123,11 +143,17 @@ public partial class NPC : Node3D
 		if (_dialogues.Count == 0) return;
 
 		var first = _dialogues[0];
-		string moneyTag = first.Type == "time_trade"
-			? $"-{first.Hours}h"
-			: IsGiver ? $"+${first.Amount}" : $"-${first.Amount}";
+		// Surface the cost of the next exchange under the name (money/time only).
+		string costTag = first.Type switch
+		{
+			"time_trade" => $"-{first.Hours}h",
+			"money"      => IsGiver ? $"+${first.Amount}" : $"-${first.Amount}",
+			_            => ""
+		};
 
-		_promptLabel.Text = GetDisplayName();
+		_promptLabel.Text = costTag != ""
+			? $"{GetDisplayName()}\n{costTag}"
+			: GetDisplayName();
 
 		float t = MaxNoResponses > 0 ? (float)_noCount / MaxNoResponses : 0f;
 		_promptLabel.Modulate = t switch
@@ -163,6 +189,26 @@ public partial class NPC : Node3D
 		file.Close();
 		var data = JsonSerializer.Deserialize<DialogueData>(json);
 		if (data != null) _dialogues = data.Dialogues;
+	}
+
+	private void CreateFloorMarker()
+	{
+		var marker = new MeshInstance3D();
+		marker.Mesh = new TorusMesh { InnerRadius = 0.55f, OuterRadius = 0.85f };
+		marker.Position = new Vector3(0f, 0.05f, 0f); // just above the floor
+
+		_markerMat = new StandardMaterial3D
+		{
+			ShadingMode              = BaseMaterial3D.ShadingModeEnum.Unshaded,
+			AlbedoColor              = new Color(0.2f, 1f, 0.9f, 1f),
+			EmissionEnabled          = true,
+			Emission                 = new Color(0.2f, 1f, 0.9f, 1f),
+			EmissionEnergyMultiplier = 2.2f,
+		};
+		// Surface override (not MaterialOverride) so the despawn fade picks it up.
+		marker.SetSurfaceOverrideMaterial(0, _markerMat);
+
+		GetNode<Node3D>("Model").AddChild(marker);
 	}
 
 	private void LoadModel()
@@ -227,6 +273,8 @@ public partial class NPC : Node3D
 		Player.IsInDialogue = true;
 		_awaitingChoice     = true;
 
+		GameManager.Instance?.OnConversationStarted();
+
 		PositionCinematicCamera();
 		_cinematicCamera.Current = true;
 		_dialogueUI.Visible      = true;
@@ -262,6 +310,8 @@ public partial class NPC : Node3D
 	private void HandleChoice(bool yes)
 	{
 		if (_dialogues.Count == 0) return;
+
+		PlayChoiceSound(yes);
 
 		var entry = _dialogues[_dialogueIndex];
 		string yesResp = _altActive && entry.AltYes != "" ? entry.AltYes : entry.YesResponse;
@@ -324,10 +374,19 @@ public partial class NPC : Node3D
 		UpdatePromptLabel();
 	}
 
+	private void PlayChoiceSound(bool yes)
+	{
+		var stream = yes ? _sfxYes : _sfxNo;
+		if (stream == null) return;
+		_sfx.Stream = stream;
+		_sfx.Play();
+	}
+
 	public void TriggerDespawn()
 	{
 		if (_despawning) return;
 		_despawning = true;
+		PrepareFadeMaterials();
 		_interactionArea.SetDeferred("monitoring", false);
 		_promptLabel.Visible = false;
 		if (_dialogueActive) EndDialogue();
@@ -340,6 +399,33 @@ public partial class NPC : Node3D
 		_floatLabel.Billboard = BaseMaterial3D.BillboardModeEnum.Enabled;
 		_floatLabel.NoDepthTest = true;
 		AddChild(_floatLabel);
+	}
+
+	// Walk the model's meshes, duplicate each active material as alpha-blended,
+	// and override it in place so we can fade the whole figure to transparent.
+	private void PrepareFadeMaterials()
+	{
+		var model = GetNodeOrNull<Node3D>("Model");
+		if (model != null) CollectFadeMaterials(model);
+	}
+
+	private void CollectFadeMaterials(Node node)
+	{
+		if (node is MeshInstance3D mi && mi.Mesh != null)
+		{
+			for (int s = 0; s < mi.Mesh.GetSurfaceCount(); s++)
+			{
+				if (mi.GetActiveMaterial(s) is BaseMaterial3D bm)
+				{
+					var dup = (BaseMaterial3D)bm.Duplicate();
+					dup.Transparency = BaseMaterial3D.TransparencyEnum.Alpha;
+					mi.SetSurfaceOverrideMaterial(s, dup);
+					_fadeMaterials.Add((dup, dup.AlbedoColor));
+				}
+			}
+		}
+		foreach (Node child in node.GetChildren())
+			CollectFadeMaterials(child);
 	}
 
 	public void ApplyPassiveDrain()
@@ -391,7 +477,8 @@ public partial class NPC : Node3D
 		Vector3 dir = _player.GlobalPosition - GlobalPosition;
 		dir.Y = 0;
 		if (dir.LengthSquared() < 0.001f) return;
-		Rotation = new Vector3(0, Mathf.Atan2(dir.X, dir.Z), 0);
+		float target = Mathf.Atan2(dir.X, dir.Z);
+		Rotation = new Vector3(0, Mathf.LerpAngle(Rotation.Y, target, 0.15f), 0);
 	}
 
 	public override void _Process(double delta)
@@ -400,7 +487,18 @@ public partial class NPC : Node3D
 		{
 			_despawnTimer += (float)delta;
 			float t = Mathf.Clamp(_despawnTimer / 1.5f, 0f, 1f);
-			Scale = Vector3.One * (1f - t);
+
+			// Fade the figure out of existence by sliding material alpha to 0.
+			float alpha = 1f - t;
+			if (_fadeMaterials.Count > 0)
+			{
+				foreach (var (mat, baseColor) in _fadeMaterials)
+					mat.AlbedoColor = new Color(baseColor.R, baseColor.G, baseColor.B, baseColor.A * alpha);
+			}
+			else
+			{
+				Scale = Vector3.One * alpha; // fallback if the model has no standard materials
+			}
 
 			if (_floatLabel != null)
 			{
@@ -418,6 +516,13 @@ public partial class NPC : Node3D
 
 		if (_playerInRange && !_dialogueActive)
 			FacePlayer();
+
+		// Gentle bioluminescent pulse on the floor marker.
+		if (_markerMat != null)
+		{
+			_markerPulse += (float)delta * 2.5f;
+			_markerMat.EmissionEnergyMultiplier = 1.6f + Mathf.Sin(_markerPulse) * 0.8f;
+		}
 	}
 
 	private void OnBodyEntered(Node3D body)

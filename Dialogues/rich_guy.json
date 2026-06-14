@@ -1,81 +1,81 @@
 {
   "dialogues": [
     {
-      "text": "I know what you're carrying. I can see it. Give me a few hours and I'll clear everything you owe.",
-      "yes_response": "Good. You won't feel it leave. That's the mercy in what I do.",
-      "no_response": "The offer stands. Time moves the same for both of us. For now.",
+      "text": "I know what you're carrying. I can see the weight of it from here — debt has a particular posture. Give me a few hours of yours and I'll clear every cent you owe. Painless. Quiet.",
+      "yes_response": "Good. You won't feel them leave you. That's the mercy in what I do — there's never a moment to mourn.",
+      "no_response": "The offer keeps. Time moves the same for both of us. For now. That last part tends to change.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "You have something most people don't — time you're not using the way you should. Let me take that weight.",
-      "yes_response": "Smart. The hours you lose were hours you were spending on the wrong things anyway.",
-      "no_response": "Come back when the debt feels heavier. It will.",
+      "text": "You have something most people would never part with — hours you're spending poorly, on worry, on standing in fog. Let me take that weight off your hands and put it to better use.",
+      "yes_response": "Smart. The hours you handed me were hours you were wasting on the wrong faces anyway. I improved them.",
+      "no_response": "Come back when the debt sits heavier on you. It will. Debt is patient. I taught it that.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "Debt is a slow erosion. I stop the erosion. I just need three hours. A small trade.",
-      "yes_response": "Good. You'll barely remember what you gave. That's always how it goes.",
-      "no_response": "Think on it. I'm in no hurry. You might be.",
+      "text": "Debt is a slow erosion — a tide that only ever comes in. I stop the tide. I ask three hours for it. A small stretch of beach, against the whole ocean.",
+      "yes_response": "Good. You'll barely remember what you handed over. They never do. That's the elegance of the arrangement.",
+      "no_response": "Think on it, then. I'm in no particular hurry. You, on the other hand, are made entirely of hurry now.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "I've taken hours from people who didn't know they were running out. You know. That makes this fair.",
-      "yes_response": "Fairer than most transactions. You at least understand what you're trading.",
-      "no_response": "Wisdom. Or stubbornness. Hard to tell them apart at a distance.",
+      "text": "I've taken hours from people who never knew they were running low. You know exactly how low you're running. That knowledge is rare — it makes this trade an honest one, for once.",
+      "yes_response": "Fairer than most transactions a man makes. You at least understand the coin you're paying in. Few do.",
+      "no_response": "Wisdom, or stubbornness. From where I stand they wear the same coat. Hard to tell them apart at a distance.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "You came to me today for a reason. Not the debt — you know why. Three hours. That's all.",
-      "yes_response": "There. That's what you came here for. Whether you knew it or not.",
-      "no_response": "You'll be back. The ones who say no always come back.",
+      "text": "You came to me today, and you'll tell yourself it was about the debt. It wasn't. Somewhere underneath, you already know why your feet brought you here. Three hours. That's all I'm asking.",
+      "yes_response": "There. That's the thing you actually came for, whether the front of your mind admits it or not.",
+      "no_response": "You'll be back. The ones who say no the first time always find their way back to me. I've a chair ready.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "The number in your balance — I can erase it. Three hours of yours. That's all I'm taking.",
-      "yes_response": "Done. You won't notice it gone until you reach the end of the day.",
-      "no_response": "Interesting. Most people in your position don't say no twice.",
+      "text": "That number sitting in your balance, the one that follows you from door to door — I can erase it entirely. Three hours of yours. That is the whole of the price. No fine print.",
+      "yes_response": "Done. You won't notice the absence until you reach the end of the day and find it arrived early.",
+      "no_response": "Interesting. Most people standing where you're standing don't manage to say no to me twice.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "I don't need your money. I have more than I'll ever spend. What I want is time. Yours specifically.",
-      "yes_response": "A generous trade. For one of us.",
-      "no_response": "You'll think about this later. In a quiet moment. You'll wonder.",
+      "text": "I don't want your money — I have more of that than any man could spend across three lifetimes. What I collect is time. Yours, specifically. It has a quality I find I'm short of.",
+      "yes_response": "A generous trade. For one of us, certainly. I'll let you decide later which one. You'll have opinions.",
+      "no_response": "You'll think about this again. In some quiet minute, when the fog's at the windows. You'll wonder.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "People always think they have more time than they do. You know better. That's interesting. Three hours.",
-      "yes_response": "Good. There's a clarity in knowing. Most people never get that.",
-      "no_response": "I respect that. It won't change things, but I respect it.",
+      "text": "People walk around convinced they've got more time than they do — it's the great comfortable lie of being alive. You've put the lie down. That's interesting. That's worth talking to. Three hours.",
+      "yes_response": "Good. There's a clarity in knowing the number. Most people die without ever once being told it.",
+      "no_response": "I respect that. It won't alter the shape of your day in the slightest, but I respect it all the same.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "I can feel you running short. It's something I notice. Three hours clears everything you owe.",
-      "yes_response": "Good decision. Everything balanced. Everything clean.",
-      "no_response": "Alright. The fog will come regardless. But I understand.",
+      "text": "I can feel you running short — it's a thing I notice the way you'd notice a draft under a door. Three hours clears everything you owe and everything you're dreading owing. Clean slate.",
+      "yes_response": "Good decision. Everything balanced, everything settled, everything quiet. I do enjoy a quiet ledger.",
+      "no_response": "Alright. The fog comes regardless of what's on your balance. But I understand the impulse to keep the hours. I do.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0
     },
     {
-      "text": "This is the last time I'll ask. Three hours. Your debt disappears. Simple as that.",
-      "yes_response": "Good. I'll handle the rest. You won't feel where it went.",
-      "no_response": "Then go. Spend what you have on the people who matter. That's the wiser trade.",
+      "text": "This is the last time I'll put it to you — I don't enjoy repeating myself, it cheapens the offer. Three hours. Your debt simply ceases to exist. Simple as drawing a breath.",
+      "yes_response": "Good. I'll handle the rest of it from here. You won't feel the place where the hours used to be.",
+      "no_response": "Then go. Spend what you've got left on the people whose faces you'll want to remember. That's the wiser trade, in truth. I won't tell anyone I said so.",
       "type": "time_trade",
       "hours": 3,
       "amount": 0

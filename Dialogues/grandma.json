@@ -1,72 +1,72 @@
 {
   "dialogues": [
 	{
-	  "text": "I've been up since four. I kept thinking about you. Here — take this. Please.",
-	  "yes_response": "Good. You've always been too proud to ask for help. Don't start now.",
-	  "no_response": "I'll leave it on the table. It'll be there when you're ready.",
+	  "text": "I've been up since four. Couldn't settle — I kept thinking about you, the way you were as a boy. Here. Take this. Please, don't argue with an old woman before breakfast.",
+	  "yes_response": "Good. You've always been too proud to take help. Don't you start being proud with me now, of all days.",
+	  "no_response": "I'll leave it here on the table, by the fruit. It'll be waiting when you're ready for it.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "I sold your grandfather's watch. The money should go to you. He'd have wanted that.",
-	  "yes_response": "He would have been proud of you. He never said it enough. Neither did I.",
-	  "no_response": "I'll put it in an envelope. You come back for it whenever you can.",
+	  "text": "I sold your grandfather's watch. The good one, from the drawer. Don't make that face — the money should be yours now. He'd have wanted it walking around in your pocket, not stopped in a drawer.",
+	  "yes_response": "He would have been proud of you. He never said it the way he should have. Neither did I, come to that.",
+	  "no_response": "Then I'll put it in an envelope with your name. You come back for it whenever the day lets you.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "I made too much soup again. And I have this set aside. Take it.",
-	  "yes_response": "You look pale. You've looked pale for weeks. Come inside soon. Please.",
-	  "no_response": "The soup will keep. So will I. Come back when you can.",
+	  "text": "I made far too much soup again — I always do, it's a habit from when the house was full. And I've this set aside for you besides. Take both, you'll do me the favor.",
+	  "yes_response": "You look pale, my love. You've looked pale for weeks now. Come inside and sit soon. Promise me soon.",
+	  "no_response": "The soup will keep. So will I, more or less. Come back when you can manage it.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "I lit a candle for you at church every morning this week. And I brought you this.",
-	  "yes_response": "I say a prayer for you every day. I'm not going to stop.",
-	  "no_response": "That's alright. I'll keep praying anyway. You don't have to take anything.",
+	  "text": "I lit a candle for you every morning this week, before the church even unlocked the side door. The verger knows me now. And I brought you this, while I'm at it.",
+	  "yes_response": "I say a prayer over your name every day. I'm not going to stop just because you're grown and out the door.",
+	  "no_response": "That's alright. I'll keep the prayers going anyway. Those you can't say no to, you'll notice.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "Your aunt asked about you. I didn't know what to say to her. Here — just take this.",
-	  "yes_response": "I told her you were doing fine. I hope that was the right thing to say.",
-	  "no_response": "I'll tell her you said hello. That's enough for now.",
+	  "text": "Your aunt rang, asking after you. I didn't rightly know what to tell her, so I told her very little. Here — just take this, and don't make me lie better next time.",
+	  "yes_response": "I told her you were doing fine. I do hope that was the right thing to put in her ear. It felt kind, anyway.",
+	  "no_response": "I'll tell her you sent your love. That's true enough, and it's all she really wanted to hear.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "I don't need much. I never have. You take this. I mean it.",
-	  "yes_response": "Good. That's all I wanted to do. Just do something.",
-	  "no_response": "Stubborn. You get that from your father. Come back soon.",
+	  "text": "I don't need much. Never have, even when I thought I did. You take this off my hands. I mean it — it's no use sitting in a tin under my bed.",
+	  "yes_response": "Good. That's all I wanted, really. Just to do something with these hands besides wring them.",
+	  "no_response": "Stubborn. You get that from your father, the whole stubborn streak of it. Come back soon anyway.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "I keep wanting to give you things. I don't know why. I just do. Here.",
-	  "yes_response": "I just — I need to feel useful. You understand. You've always understood.",
-	  "no_response": "Come back soon. That's the only thing I really want from you.",
+	  "text": "I keep wanting to give you things. I can't entirely explain it — it's come over me strong this past while. So. Here. Let me.",
+	  "yes_response": "I just need to feel useful to you. You understand. You've always understood me without the long explanation.",
+	  "no_response": "Come back soon. That's the only thing I really want from you. The rest is just my hands needing a job.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "I found some money I'd forgotten about. It was in an old coat. It should be yours.",
-	  "yes_response": "Sometimes things show up when you need them. I like to think that.",
-	  "no_response": "It's not going anywhere. Neither am I.",
+	  "text": "I found some money I'd clean forgotten about — folded in the pocket of an old winter coat. I take that as a sign it was always meant for you.",
+	  "yes_response": "Sometimes things turn up just when a person needs them. I like to believe that. It costs nothing to believe.",
+	  "no_response": "It's not going anywhere, and neither am I. The coat'll hold it a while longer.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "I baked this morning. First time in months. I don't know why today. Take this too.",
-	  "yes_response": "You're too thin. I notice. Mothers always notice.",
-	  "no_response": "The door is always open. You know that. It's always open.",
+	  "text": "I baked this morning. First time in months — the oven and I had fallen out. I couldn't tell you why today of all days. Take this too, with the bread.",
+	  "yes_response": "You're too thin, my love. I notice these things. Mothers and grandmothers, we always notice the thinness.",
+	  "no_response": "The door is always open. You know that. It's always open, day or night, you've only to come through it.",
 	  "type": "money",
 	  "amount": 35
 	},
 	{
-	  "text": "Before you go. Take this. I love you. You know that, don't you.",
-	  "yes_response": "Good. Just — come back. That's all I need. Just come back.",
-	  "no_response": "I know. I know you do. Just come back tomorrow.",
+	  "text": "Before you go. Take this. And — I love you. You know that, don't you. I worry I leaned on showing it and forgot to say it plainly.",
+	  "yes_response": "Good. Just — come back. That's the whole of what I'm asking. Just come back through that door.",
+	  "no_response": "I know. I know you do. Just come back tomorrow, then. Tomorrow will do me fine.",
 	  "type": "money",
 	  "amount": 35
 	}

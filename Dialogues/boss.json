@@ -1,72 +1,72 @@
 {
   "dialogues": [
     {
-      "text": "I want everything settled before the end of the week. Here's what we owe you. Forty.",
-      "yes_response": "Good. I've always run a clean operation. I want that to hold.",
-      "no_response": "It'll be here. I'm not going anywhere.",
+      "text": "I want everything settled before the week's out — I don't sleep right with loose ends on the books. Here's what we still owe you. Forty. Take it.",
+      "yes_response": "Good. I've always run a clean operation. I'd like that to be the thing it's remembered for.",
+      "no_response": "It'll be here. I'm not going anywhere, and neither is what's owed. Come back for it.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I heard from HR. I'm not going to ask questions. But take this. Forty.",
-      "yes_response": "You were one of the good ones. I don't say that to many people.",
-      "no_response": "I'll hold it. Come back for it when you're ready.",
+      "text": "I heard from HR this morning. I'm not going to ask you a single question about it — that's not the kind of conversation this is. But take this. Forty.",
+      "yes_response": "You were one of the good ones. I don't hand that sentence out often. Don't let it go to your head.",
+      "no_response": "I'll hold it in the drawer. Come back for it when you're ready. The drawer doesn't forget.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "There's outstanding pay from last quarter. I want it in your hands. Forty.",
-      "yes_response": "Good. Consider it done.",
-      "no_response": "I'll put it in an envelope with your name on it. It's not going anywhere.",
+      "text": "There's pay outstanding from last quarter — the bonus that got tangled in the accounting. I want it in your hand, not the company's. Forty.",
+      "yes_response": "Good. Consider it done and off my conscience both. I prefer my ledgers honest.",
+      "no_response": "I'll put it in an envelope with your name on the front. It is not going anywhere without you.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "You've put in good work. More than I let on. Take the forty.",
-      "yes_response": "I should've said it while it mattered more. That's on me.",
-      "no_response": "Your call. But know it was earned.",
+      "text": "You put in good work here. More of it than I ever let on to your face — that was a managing decision, and not my best one. Take the forty.",
+      "yes_response": "I should've said it while it could've changed how a Monday felt for you. That part's on me.",
+      "no_response": "Your call. But know it was earned, every dollar. I don't give money I don't mean.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I'm squaring up accounts. I don't leave things unfinished. Forty.",
-      "yes_response": "Good. That's how I've always run things.",
-      "no_response": "It's yours either way. I'll make sure of that.",
+      "text": "I'm squaring up every account that has your name near it. I don't leave things half-finished — never have, it's the one virtue I'm sure of. Forty.",
+      "yes_response": "Good. That's how I've always run things, and how I intend to keep running them.",
+      "no_response": "It's yours either way. I'll see to that personally. The decision's mine, not yours.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I covered something on your behalf. I don't want reimbursement. Just — take the forty.",
-      "yes_response": "Don't make it sentimental. Just take it.",
-      "no_response": "Stubborn. That's not always a virtue. Come back for it.",
+      "text": "I covered a thing on your behalf — quietly, last month, before it could land on your desk. I don't want it back. Just — take the forty and we're even.",
+      "yes_response": "Don't go making it sentimental on me. Just take it and let an old man feel useful for a minute.",
+      "no_response": "Stubborn. That's not always the virtue people sell it as. Come back for it when you're sensible.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "There's a thing people don't say enough in this business. You mattered. Take the forty.",
-      "yes_response": "Good. Now don't make me say anything else.",
-      "no_response": "The money doesn't expire. The sentiment neither.",
+      "text": "There's a thing nobody says enough in this line of work, so I'll say it once and we'll never mention it again. You mattered here. Take the forty.",
+      "yes_response": "Good. Now don't make me say anything else out loud. I've used up my whole year's allotment.",
+      "no_response": "The money doesn't expire. The sentiment underneath it doesn't either. Both keep.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "I've been doing this a long time. You learn to see when things are winding down. Forty.",
-      "yes_response": "Go. While you still can. That's not nothing.",
-      "no_response": "The offer doesn't close. Whenever you're ready.",
+      "text": "I've been doing this a long time. Long enough to feel it in a room when something's winding down — a contract, a quarter, a man. Forty. While I can hand it over.",
+      "yes_response": "Go. While you still can, go. That's not nothing — that's most things, when you tally it up.",
+      "no_response": "The offer doesn't close at five today. Whenever you're ready, the door and the drawer both open.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "Final pay period. I ran the numbers twice. Here's your forty.",
-      "yes_response": "Good luck. I mean that in a way that doesn't require explanation.",
-      "no_response": "Alright. I'll note it. It doesn't disappear.",
+      "text": "Final pay period, all of it reconciled. I ran the numbers twice because I wanted them to be right for once, start to finish. Here's your forty.",
+      "yes_response": "Good luck out there. I mean that in the way that doesn't need a speech wrapped around it.",
+      "no_response": "Alright. I'll note it down. It doesn't disappear off the books just because you walked.",
       "type": "money",
       "amount": 40
     },
     {
-      "text": "Take this. Don't tell me you're fine. Just take the forty and go see whoever you need to see.",
-      "yes_response": "Good. That's the right call. I wish I'd made more of those.",
-      "no_response": "Alright. But I hope you reconsider what you're spending your time on.",
+      "text": "Take this. And don't stand there telling me you're fine — I've signed off on enough timesheets to know a tired man when one's in front of me. Forty, and go see whoever you need to see.",
+      "yes_response": "Good. That's the right call. I wish I'd made more of those when the making of them was easy.",
+      "no_response": "Alright. But I hope you'll reconsider how you're spending your hours. That's the one account I can't settle for you.",
       "type": "money",
       "amount": 40
     }
